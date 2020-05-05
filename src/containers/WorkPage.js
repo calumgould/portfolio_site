@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
 import 'styles/Work.css';
-import designProjects from 'components/subComponents/designProjects';
+import designProjects from 'components/subComponents/designProjectsComponent';
 
-import ProjectsGrid from 'components/ProjectsGrid';
+import ProjectsGrid from 'components/ProjectsGridComponent';
 
 class Work extends Component {
     constructor(props) {
@@ -16,7 +16,7 @@ class Work extends Component {
         return (
             <div>
                 <h1>Work</h1>
-                <ProjectsGrid designProjects={this.state.designProjects} />
+                <ProjectsGrid designProjects={this.state.designProjects} history={this.props.history}/>
             </div>
 
          );

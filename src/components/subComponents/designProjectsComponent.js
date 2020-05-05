@@ -14,6 +14,7 @@ const designProjects = [
         year: '2019',
         src: kateBush,
         alt: 'Kate Bush symposium poster mockup',
+        path: '/work/kate-bush-symposium',
     },
     {
         id:2,
@@ -21,6 +22,7 @@ const designProjects = [
         year: '2019',
         src: choJuice,
         alt: 'Cho Juice brand logo',
+        path: '/work/cho-juice',
     },
     {
         id:3,
@@ -28,6 +30,7 @@ const designProjects = [
         year: '2019',
         src: heinzPoster,
         alt: 'project poster mockup',
+        path: '/work/heinz',
     },
     {
         id:4,
@@ -35,6 +38,7 @@ const designProjects = [
         year: '2019',
         src: garvaldArtists,
         alt: 'Final publication mockup spread',
+        path: '/work/garvald-artists',
     },
     {
         id:5,
@@ -42,6 +46,7 @@ const designProjects = [
         year: '2017',
         src: loganAir,
         alt: 'Logan Air proposed new logo',
+        path: '/work/logan-air',
     },
     {
         id:6,
@@ -49,6 +54,7 @@ const designProjects = [
         year: '2018',
         src: puppetAnimation,
         alt: 'Puppet Animation Scotland project booklet mockup',
+        path: '/work/puppet-animation-scotland',
     },
     {
         id:7,
@@ -56,6 +62,7 @@ const designProjects = [
         year: '2014',
         src: theVeryHungryCaterpillar,
         alt: 'Final book mockup',
+        path: '/work/the-very-hungry-caterpillar',
     },
     {
         id:8,
@@ -63,6 +70,7 @@ const designProjects = [
         year: '2019',
         src: personalTrainer,
         alt: 'Business card mockup',
+        path: '/work/personal-trainer-branding',
     },
 ]
 

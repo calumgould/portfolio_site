@@ -2,11 +2,13 @@ import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import {createBrowserHistory} from 'history';
 
-import NavBar from 'components/NavBar';
-import Home from 'containers/Home';
-import Work from 'containers/Work';
-import About from 'containers/About';
-import Error from 'components/Error';
+import NavBar from 'components/NavBarComponent';
+import Home from 'containers/HomePage';
+import Work from 'containers/WorkPage';
+import About from 'containers/AboutPage';
+import Error from 'components/ErrorComponent';
+
+import WorkRoutes from 'components/WorkRoutesComponent'
 
 const history = createBrowserHistory();
 
@@ -17,8 +19,9 @@ const Main = () => {
                 <NavBar />
                 <Switch>
                     <Route exact path ='/' component={Home} />
-                    <Route path ='/work' component={Work} />
+                    <Route exact path ='/work' component={Work} />
                     <Route path ='/about' component={About} />
+                    <WorkRoutes />
                     <Route component={Error} />
                 </Switch>
             </div>
