@@ -10,6 +10,7 @@ import About from 'containers/AboutPage';
 import Error from 'components/ErrorComponent';
 
 import DesignRoutesComponent from 'components/DesignRoutesComponent'
+import ProgrammingWorkPage from 'containers/ProgrammingWorkPage';
 
 const history = createBrowserHistory();
 
@@ -22,6 +23,7 @@ const Main = () => {
                     <Route exact path ='/' component={Home} />
                     <Route exact path ='/work' component={Work} />
                     <Route exact path ='/work/design' component={DesignWork} />
+                    <Route exact path ='/work/programming' component={ProgrammingWorkPage} />
                     <Route path ='/about' component={About} />
                     <DesignRoutesComponent />
                     <Route component={Error} />

@@ -1,11 +1,15 @@
 import React from 'react';
 
-const WorkPage = () => {
+const WorkPage = ({history}) => {
     return ( 
         <div>
             <h1>Work</h1>
-            <h2>Design</h2>
-            <h2>Programming</h2>
+            <div onClick={() => history.push('/work/design')}>
+                <h2>Design</h2>
+            </div>
+            <div onClick={() => history.push('/work/programming')}>
+                <h2>Programming</h2>
+            </div>
         </div>
      );
 }
