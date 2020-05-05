@@ -5,10 +5,11 @@ import {createBrowserHistory} from 'history';
 import NavBar from 'components/NavBarComponent';
 import Home from 'containers/HomePage';
 import Work from 'containers/WorkPage';
+import DesignWork from 'containers/DesignWorkPage';
 import About from 'containers/AboutPage';
 import Error from 'components/ErrorComponent';
 
-import WorkRoutes from 'components/WorkRoutesComponent'
+import DesignRoutesComponent from 'components/DesignRoutesComponent'
 
 const history = createBrowserHistory();
 
@@ -20,8 +21,9 @@ const Main = () => {
                 <Switch>
                     <Route exact path ='/' component={Home} />
                     <Route exact path ='/work' component={Work} />
+                    <Route exact path ='/work/design' component={DesignWork} />
                     <Route path ='/about' component={About} />
-                    <WorkRoutes />
+                    <DesignRoutesComponent />
                     <Route component={Error} />
                 </Switch>
             </div>

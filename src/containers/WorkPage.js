@@ -1,26 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-import 'styles/Work.css';
-import designProjects from 'components/subComponents/designProjectsComponent';
-
-import ProjectsGrid from 'components/ProjectsGridComponent';
-
-class Work extends Component {
-    constructor(props) {
-        super(props);
-        this.state = { 
-            designProjects: designProjects
-        }
-    }
-    render() { 
-        return (
-            <div>
-                <h1>Work</h1>
-                <ProjectsGrid designProjects={this.state.designProjects} history={this.props.history}/>
-            </div>
-
-         );
-    }
+const WorkPage = () => {
+    return ( 
+        <div>
+            <h1>Work</h1>
+            <h2>Design</h2>
+            <h2>Programming</h2>
+        </div>
+     );
 }
  
-export default Work;
+export default WorkPage;
