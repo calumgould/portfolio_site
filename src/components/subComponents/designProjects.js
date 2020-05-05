@@ -1,4 +1,4 @@
-import kateBush from 'assets/images/graphics/cho_juice_logo.jpg';
+import kateBush from 'assets/images/graphics/kate_bush_poster.jpg';
 import choJuice from 'assets/images/graphics/cho_juice_logo.jpg';
 import heinzPoster from 'assets/images/graphics/heinz_poster.jpg';
 import garvaldArtists from 'assets/images/graphics/garvald_artists.jpg';
