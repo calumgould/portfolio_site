@@ -1,11 +1,11 @@
-import kateBush from 'assets/images/graphics/kate_bush_poster.jpg';
-import choJuice from 'assets/images/graphics/cho_juice_logo.jpg';
-import heinzPoster from 'assets/images/graphics/heinz_poster.jpg';
-import garvaldArtists from 'assets/images/graphics/garvald_artists.jpg';
-import loganAir from 'assets/images/graphics/logan_air_logo.jpg';
-import puppetAnimation from 'assets/images/graphics/puppet_animation.jpg';
-import theVeryHungryCaterpillar from 'assets/images/graphics/the_very_hungry_caterpillar.jpg';
-import personalTrainer from 'assets/images/graphics/personal_trainer_branding.jpg';
+import kateBush from 'assets/images/projects/KateBush/kate_bush_poster.jpg';
+import choJuice from 'assets/images/projects/ChoJuice/cho_juice_logo.jpg';
+import heinzPoster from 'assets/images/projects/D&AD/heinz_poster.jpg';
+import garvaldArtists from 'assets/images/projects/GarvaldArtists/garvald_artists.jpg';
+import loganAir from 'assets/images/projects/LoganAir/logan_air_logo.jpg';
+import puppetAnimation from 'assets/images/projects/PuppetAnimation/puppet_animation.jpg';
+import theVeryHungryCaterpillar from 'assets/images/projects/HungryCaterpillar/the_very_hungry_caterpillar.jpg';
+import personalTrainer from 'assets/images/projects/PersonalTrainer/personal_trainer_branding.jpg';
 
 const designProjects = [
     {
