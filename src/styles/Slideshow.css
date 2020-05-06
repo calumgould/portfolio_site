@@ -1,0 +1,21 @@
+.slide-container {
+    width: 85%;
+    margin: auto;
+}
+
+.each-fade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.each-fade .image-container {
+    width: 100%;
+    overflow: hidden;
+    height: 40vw;
+}
+
+.each-fade .image-container img {
+    width: auto;
+    height: 100%;
+}

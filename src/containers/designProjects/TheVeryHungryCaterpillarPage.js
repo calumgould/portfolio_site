@@ -1,7 +1,9 @@
 import React from 'react';
 import 'styles/Main.css'
+import SlideshowComponent from 'components/SlideshowComponent';
 
 const TheVeryHungryCaterpillarPage = () => {
+
     return ( 
         <div>
             <div>
@@ -26,9 +28,9 @@ const TheVeryHungryCaterpillarPage = () => {
                     <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside6.jpg')} alt='business card mockup'/>
                 </div> 
             </div>
-            <div>
+            <div className='div'>
                 <h2>All Pages</h2>
-                <p>images here (slideshow?)</p>
+                <SlideshowComponent />
             </div>
         </div>
      );
