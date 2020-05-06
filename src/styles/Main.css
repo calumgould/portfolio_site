@@ -1,0 +1,37 @@
+.hero {
+    width: 60%;
+}
+
+.flex-container {
+    display: flex;
+    width: 90%;
+    margin: 0 5%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.two-column-grid {
+    justify-content: center;
+    column-count: 2;
+    line-height: 0;
+    column-gap: 1%;
+    text-align: center;
+    margin: 2em 5%;
+}
+
+.grid-image {
+    width: 100%;
+    margin-bottom: 2%;
+    vertical-align: middle;
+}
+
+.two-row {
+    width: 49%;
+    margin: 0.5%;
+}
+
+.three-row {
+    width: 32%;
+    margin: 0.5%;
+}

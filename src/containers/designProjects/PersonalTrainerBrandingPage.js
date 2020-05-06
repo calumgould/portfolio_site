@@ -1,11 +1,12 @@
 import React from 'react';
+import 'styles/Main.css';
 
 const PersonalTrainerBrandingPage = () => {
     return (
         <div>
             <div>
                 <h1>Personal Trainer Branding</h1>
-                <p>mockup image here</p>
+                <img className='hero' src={require('assets/images/designProjects/PersonalTrainer/cards_mockup.jpg')} alt='business card mockup'/>
                 <p>
                 Logo, business card and social media branding design for Clara Nimmo. A personal trainer based at Pure Gym Quartermile, Edinburgh.
                 <br /><br />
@@ -16,11 +17,18 @@ const PersonalTrainerBrandingPage = () => {
             </div>
             <div>
                 <h2>Social Media</h2>
-                <p>images here</p>
+                <div className='flex-container'>
+                    <img className='two-row' src={require('assets/images/designProjects/PersonalTrainer/social_media1.jpg')} alt='social media profile mockup'/>
+                    <img className='two-row' src={require('assets/images/designProjects/PersonalTrainer/social_media2.jpg')} alt='social media profile mockup'/>
+                </div>
             </div>
             <div>
                 <h2>Designs</h2>
-                <p>images here</p>
+                <div className='flex-container'>
+                    <img className='three-row' src={require('assets/images/designProjects/PersonalTrainer/card_front.jpg')} alt='business card front design'/>
+                    <img className='three-row' src={require('assets/images/designProjects/PersonalTrainer/card_back.jpg')} alt='business card back design'/>
+                    <img className='three-row' src={require('assets/images/designProjects/PersonalTrainer/pattern.jpg')} alt='background pattern'/>
+                </div>
             </div>
         </div>
     );

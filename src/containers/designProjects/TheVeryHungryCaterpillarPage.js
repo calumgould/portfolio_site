@@ -1,11 +1,12 @@
 import React from 'react';
+import 'styles/Main.css'
 
 const TheVeryHungryCaterpillarPage = () => {
     return ( 
         <div>
             <div>
                 <h1>The Very Hungry Caterpillar</h1>
-                <p>mockup image here</p>
+                <img className='hero' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_front.jpg')} alt='business card mockup'/>
                 <p>
                 A-Level Graphic Design project to redesign and illustrate a children's book.
                 <br /><br />
@@ -16,7 +17,14 @@ const TheVeryHungryCaterpillarPage = () => {
             </div>
             <div>
                 <h2>Book</h2>
-                <p>images here</p>
+                <div className='two-column-grid'>
+                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside1.jpg')} alt='business card mockup'/>
+                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside2.jpg')} alt='business card mockup'/>
+                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside3.jpg')} alt='business card mockup'/>
+                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside4.jpg')} alt='business card mockup'/>
+                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside5.jpg')} alt='business card mockup'/>
+                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside6.jpg')} alt='business card mockup'/>
+                </div> 
             </div>
             <div>
                 <h2>All Pages</h2>
