@@ -1,6 +1,7 @@
 import React from 'react';
 import 'styles/Main.css'
 import SlideshowComponent from 'components/SlideshowComponent';
+import slideImages from 'components/subComponents/CaterpillarPages';
 
 const TheVeryHungryCaterpillarPage = () => {
 
@@ -30,7 +31,7 @@ const TheVeryHungryCaterpillarPage = () => {
             </div>
             <div className='div'>
                 <h2>All Pages</h2>
-                <SlideshowComponent />
+                <SlideshowComponent slideImages={slideImages}/>
             </div>
         </div>
      );

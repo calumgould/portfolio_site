@@ -27,7 +27,7 @@ import page26 from 'assets/images/designProjects/HungryCaterpillar/pages/page26.
 import page27 from 'assets/images/designProjects/HungryCaterpillar/pages/page27.jpg'
 import page28 from 'assets/images/designProjects/HungryCaterpillar/pages/page28.jpg'
 
-const fadeImages = [
+const slideImages = [
     page1,
     page2,
     page3,
@@ -58,4 +58,4 @@ const fadeImages = [
     page28, 
 ]
 
-export default fadeImages;
+export default slideImages;

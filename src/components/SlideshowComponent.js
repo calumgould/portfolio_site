@@ -2,9 +2,7 @@ import React from 'react';
 import {Fade} from 'react-slideshow-image';
 import 'styles/Slideshow.css'
 
-import fadeImages from './subComponents/CaterpillarPages';
-
-const SlideshowComponent = () => {
+const SlideshowComponent = ({slideImages}) => {
 
     const fadeProperties = {
         duration: 3000,
@@ -13,7 +11,7 @@ const SlideshowComponent = () => {
         indicators: true,
     }
 
-    const generateSlides = fadeImages.map(image => {
+    const generateSlides = slideImages.map(image => {
         return (
             <div className='each-fade'>
                 <div className='image-container'>
