@@ -3,7 +3,7 @@ import choJuice from 'assets/images/designProjects/ChoJuice/logo.jpg';
 import heinzPoster from 'assets/images/designProjects/Heinz/heinz_poster.jpg';
 import garvaldArtists from 'assets/images/designProjects/GarvaldArtists/mockups/mockup_booklet_spreads.jpg';
 import loganAir from 'assets/images/designProjects/LoganAir/logo.jpg';
-import puppetAnimation from 'assets/images/designProjects/PuppetAnimation/mockups/pas_spreads.jpg';
+import puppetAnimation from 'assets/images/designProjects/PuppetAnimation/mockups/mockup_spreads.jpg';
 import theVeryHungryCaterpillar from 'assets/images/designProjects/HungryCaterpillar/mockups/mockup_front.jpg';
 import personalTrainer from 'assets/images/designProjects/PersonalTrainer/cards_mockup.jpg';
 

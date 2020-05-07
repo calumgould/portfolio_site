@@ -15,7 +15,7 @@ const SlideshowComponent = ({slideImages}) => {
         return (
             <div className='each-fade'>
                 <div className='image-container'>
-                    <img src={image} alt='book page' />
+                    <img src={image} alt='slideshow' />
                 </div>
             </div>
         )

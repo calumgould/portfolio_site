@@ -1,7 +1,7 @@
 import React from 'react';
 import 'styles/Main.css'
 import SlideshowComponent from 'components/SlideshowComponent';
-import slideImages from 'components/subComponents/CaterpillarPages';
+import CaterpillarPages from 'components/subComponents/CaterpillarPages';
 
 const TheVeryHungryCaterpillarPage = () => {
 
@@ -21,17 +21,17 @@ const TheVeryHungryCaterpillarPage = () => {
             <div>
                 <h2>Book</h2>
                 <div className='two-column-grid'>
-                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside1.jpg')} alt='business card mockup'/>
-                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside2.jpg')} alt='business card mockup'/>
-                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside3.jpg')} alt='business card mockup'/>
-                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside4.jpg')} alt='business card mockup'/>
-                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside5.jpg')} alt='business card mockup'/>
-                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside6.jpg')} alt='business card mockup'/>
+                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside1.jpg')} alt='book mockup'/>
+                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside2.jpg')} alt='book mockup'/>
+                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside3.jpg')} alt='book mockup'/>
+                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside4.jpg')} alt='book mockup'/>
+                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside5.jpg')} alt='book mockup'/>
+                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside6.jpg')} alt='book mockup'/>
                 </div> 
             </div>
             <div className='div'>
                 <h2>All Pages</h2>
-                <SlideshowComponent slideImages={slideImages}/>
+                <SlideshowComponent slideImages={CaterpillarPages}/>
             </div>
         </div>
      );

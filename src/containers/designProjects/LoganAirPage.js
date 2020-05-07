@@ -1,11 +1,12 @@
 import React from 'react';
+import 'styles/Main.css';
 
 const LoganAirPage = () => {
     return ( 
         <div>
             <div>
                 <h1>Logan Air</h1>
-                <p>mockup image here</p>
+                <img className='hero' src={require('assets/images/designProjects/LoganAir/logo_banner.jpg')} alt='logan air logo'/>
                 <p>
                 Brand redesign concept for Loganair, Scotland's biggest airline est 1962.
                 <br /><br />
@@ -17,16 +18,31 @@ const LoganAirPage = () => {
                 </p>
             </div>
             <div>
-                <h2>Designs</h2>
-                <p>images here</p>
+                <img className='one-row' src={require('assets/images/designProjects/LoganAir/airplane_mockup.jpg')} alt='airplane branding mockup'/>
             </div>
             <div>
                 <h2>Old vs New</h2>
-                <p>images here</p>
+                <div className='flex-container'>
+                    <img className='two-row' src={require('assets/images/designProjects/LoganAir/logo_banner.jpg')} alt='logan air logo'/>
+                    <img className='two-row' src={require('assets/images/designProjects/LoganAir/old_logo.jpg')} alt='logan air old logo'/>
+                </div>
             </div>
             <div>
-                <h2>Further Designs</h2>
-                <p>images here</p>
+                <h2>Designs</h2>
+                <div className='two-column-grid'>
+                    <img className='grid-image' src={require('assets/images/designProjects/LoganAir/billboard.jpg')} alt='billboard branding'/>
+                    <img className='grid-image' src={require('assets/images/designProjects/LoganAir/bus_stop.jpg')} alt='bus stop branding'/>
+                    <img className='grid-image' src={require('assets/images/designProjects/LoganAir/ticket.png')} alt='ticket branding'/>
+                    <img className='grid-image' src={require('assets/images/designProjects/LoganAir/flag.jpg')} alt='flag branding'/>
+                    <img className='grid-image' src={require('assets/images/designProjects/LoganAir/neck_wrap_dashes.jpg')} alt='neck wrap'/>
+                    <img className='grid-image' src={require('assets/images/designProjects/LoganAir/neck_wrap_stripes.jpg')} alt='neck wrap branding'/>
+                    <img className='grid-image' src={require('assets/images/designProjects/LoganAir/skirt_dashes.jpg')} alt='skirt branding'/>
+                    <img className='grid-image' src={require('assets/images/designProjects/LoganAir/skirt_stripes.jpg')} alt='skirt branding'/>
+                    <img className='grid-image' src={require('assets/images/designProjects/LoganAir/pillow_dashes.jpg')} alt='pillow branding'/>
+                    <img className='grid-image' src={require('assets/images/designProjects/LoganAir/pillow_stripes.jpg')} alt='pillow branding'/>
+                    <img className='grid-image' src={require('assets/images/designProjects/LoganAir/tie_dashes.jpg')} alt='tie branding'/>
+                    <img className='grid-image' src={require('assets/images/designProjects/LoganAir/tie_stripes.jpg')} alt='tie branding'/>
+                </div>
             </div>
         </div>
      );

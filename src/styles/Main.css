@@ -6,9 +6,25 @@
     display: flex;
     width: 90%;
     margin: 0 5%;
+    overflow: hidden;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.one-row {
+    width: 89%;
+    margin: 0 5%;
+}
+
+.two-row {
+    width: 49%;
+    margin: 0.5%;
+}
+
+.three-row {
+    width: 32%;
+    margin: 0.5%;
 }
 
 .two-column-grid {
@@ -24,19 +40,4 @@
     width: 100%;
     margin-bottom: 2%;
     vertical-align: middle;
-}
-
-.two-row {
-    width: 49%;
-    margin: 0.5%;
-}
-
-.three-row {
-    width: 32%;
-    margin: 0.5%;
-}
-
-.div {
-    height: 500;
-    width: 500;
 }

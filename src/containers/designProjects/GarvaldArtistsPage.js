@@ -5,7 +5,7 @@ const GarvaldArtistsPage = () => {
         <div>
             <div>
                 <h1>Garvald Artists</h1>
-                <p>mockup image here</p>
+                <img className='hero' src={require('assets/images/designProjects/GarvaldArtists/mockups/mockup_booklet_spreads.jpg')} alt='booklet spreads'/>
                 <p>
                 Garvald Artists is one of 21 supported workshops in Edinburgh. Their purpose is to support adults with a learning disability and develop their art, craft and catering skills.
                 <br /><br />
@@ -18,7 +18,10 @@ const GarvaldArtistsPage = () => {
             </div>
             <div>
                 <h2>Designs</h2>
-                <p>images here</p>
+                <div className='flex-container'>
+                        <img className='two-row' src={require('assets/images/designProjects/GarvaldArtists/mockups/mockup_window.jpg')} alt='booklet spreads'/>
+                        <img className='two-row' src={require('assets/images/designProjects/GarvaldArtists/mockups/mockup_home.jpg')} alt='booklet spreads'/>
+                </div>
             </div>
             <div>
                 <h2>Publication Spreads</h2>
