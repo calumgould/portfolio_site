@@ -5,7 +5,7 @@ const HeinzPage = () => {
         <div>
             <div>
                 <h1>D&AD Heinz</h1>
-                <p>mockup image here</p>
+                <img className='hero' src={require('assets/images/designProjects/Heinz/heinz_poster.jpg')} alt='heinz project poster'/>
                 <p>
                 Proposed campaign for D&AD 2019 competition brief "It has to be Heinz".
                 <br /><br />
@@ -20,7 +20,19 @@ const HeinzPage = () => {
             </div>
             <div>
                 <h2>Proposed Idea</h2>
-                <p>images here (slideshow?)</p>
+                <div className='flex-container'>
+                    <img className='two-row' src={require('assets/images/designProjects/Heinz/heinz_slide1.jpg')} alt='heinz slides'/>
+                    <img className='two-row' src={require('assets/images/designProjects/Heinz/heinz_slide2.jpg')} alt='heinz slides'/>
+                    <img className='two-row' src={require('assets/images/designProjects/Heinz/heinz_slide3.jpg')} alt='heinz slides'/>
+                    <img className='two-row' src={require('assets/images/designProjects/Heinz/heinz_slide4.jpg')} alt='heinz slides'/>
+                    <img className='two-row' src={require('assets/images/designProjects/Heinz/heinz_slide5.jpg')} alt='heinz slides'/>
+                    <img className='two-row' src={require('assets/images/designProjects/Heinz/heinz_slide6.jpg')} alt='heinz slides'/>
+                    <img className='two-row' src={require('assets/images/designProjects/Heinz/heinz_slide7.jpg')} alt='heinz slides'/>
+                    <img className='two-row' src={require('assets/images/designProjects/Heinz/heinz_slide8.jpg')} alt='heinz slides'/>
+                    <img className='two-row' src={require('assets/images/designProjects/Heinz/heinz_slide9.jpg')} alt='heinz slides'/>
+                    <img className='two-row' src={require('assets/images/designProjects/Heinz/heinz_slide10.jpg')} alt='heinz slides'/>
+                    
+                </div>
             </div>
         </div>
       );

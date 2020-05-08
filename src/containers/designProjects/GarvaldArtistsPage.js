@@ -1,4 +1,6 @@
 import React from 'react';
+import SlideshowComponent from 'components/SlideshowComponent';
+import merchImages from 'components/subComponents/MerchImages';
 
 const GarvaldArtistsPage = () => {
     return ( 
@@ -19,17 +21,24 @@ const GarvaldArtistsPage = () => {
             <div>
                 <h2>Designs</h2>
                 <div className='flex-container'>
-                        <img className='two-row' src={require('assets/images/designProjects/GarvaldArtists/mockups/mockup_window.jpg')} alt='booklet spreads'/>
-                        <img className='two-row' src={require('assets/images/designProjects/GarvaldArtists/mockups/mockup_home.jpg')} alt='booklet spreads'/>
+                    <img className='two-row' src={require('assets/images/designProjects/GarvaldArtists/mockups/mockup_window.jpg')} alt='booklet spreads'/>
+                    <img className='two-row' src={require('assets/images/designProjects/GarvaldArtists/mockups/mockup_home.jpg')} alt='booklet spreads'/>
+                    <img className='two-row' src={require('assets/images/designProjects/GarvaldArtists/mockups/mockup_merch.jpg')} alt='merch page'/>
+                    <img className='two-row' src={require('assets/images/designProjects/GarvaldArtists/mockups/mockup_merch_detail.jpg')} alt='merch detail page'/>
+                    <img className='two-row' src={require('assets/images/designProjects/GarvaldArtists/mockups/mockup_social_media.jpg')} alt='social media mockup'/>
+                    <img className='two-row' src={require('assets/images/designProjects/GarvaldArtists/mockups/mockup_booklet1.jpg')} alt='booklet inside'/>
+                    <img className='two-row' src={require('assets/images/designProjects/GarvaldArtists/mockups/mockup_booklet2.jpg')} alt='booklet inside'/>
                 </div>
             </div>
             <div>
                 <h2>Publication Spreads</h2>
-                <p>images here</p>
+                <div className='flex-container'>
+                    publication spread images
+                </div>
             </div>
             <div>
                 <h2>Merchandise</h2>
-                <p>images here</p>
+                <SlideshowComponent slideImages={merchImages} />
             </div>
         </div>
      );
