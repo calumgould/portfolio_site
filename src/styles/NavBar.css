@@ -1,0 +1,25 @@
+.nav {
+    margin-bottom: 3em;
+}
+
+.nav > li {
+    list-style: none;
+    display: inline;
+    font-size: 1.5em;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 1em 1.5em;
+}
+
+.link:hover {
+    background-color: lightgray;
+}
+
+.link-active {
+    text-decoration: underline;
+}
+
