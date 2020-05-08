@@ -31,7 +31,6 @@ const HeinzPage = () => {
                     <img className='two-row' src={require('assets/images/designProjects/Heinz/heinz_slide8.jpg')} alt='heinz slides'/>
                     <img className='two-row' src={require('assets/images/designProjects/Heinz/heinz_slide9.jpg')} alt='heinz slides'/>
                     <img className='two-row' src={require('assets/images/designProjects/Heinz/heinz_slide10.jpg')} alt='heinz slides'/>
-                    
                 </div>
             </div>
         </div>
