@@ -5,7 +5,7 @@ const ChoJuicePage = () => {
         <div>
             <div>
                 <h1>Cho Juice</h1>
-                <p>mockup image here</p>
+                <img className='hero' src={require('assets/images/designProjects/ChoJuice/logo.jpg')} alt='cho juice logo'/>
                 <p>
                 Cho Juice is a brand designed from the ground up, to bring transparency to the fruit juice market, specifically targeting how the sugar content is represented on juice bottles, due to the lack of regulations for how nutritional information is labelled on all major juice brands, such as Innocent and Tropicana.
                 <br /><br />
@@ -15,19 +15,37 @@ const ChoJuicePage = () => {
                 </p>
             </div>
             <div>
-                <p>finished bottle image</p>
+                <img className='one-row' src={require('assets/images/designProjects/ChoJuice/all_bottles.jpg')} alt='cho juice finished bottles'/>
             </div>
             <div>
                 <h2>Juice Bottle Labels</h2>
-                <p>images here</p>
+                <img className='one-row' src={require('assets/images/designProjects/ChoJuice/label_pink.jpg')} alt='juice label design'/>
+                <div className='flex-container'>
+                    <img className='three-row' src={require('assets/images/designProjects/ChoJuice/label_green.jpg')} alt='juice label design'/>
+                    <img className='three-row' src={require('assets/images/designProjects/ChoJuice/label_orange.jpg')} alt='juice label design'/>
+                    <img className='three-row' src={require('assets/images/designProjects/ChoJuice/label_purple.jpg')} alt='juice label design'/>
+                </div>
             </div>
             <div>
                 <h2>Social Media</h2>
-                <p>images here</p>
+                <div className='flex-container'>
+                    <img className='two-row' src={require('assets/images/designProjects/ChoJuice/social_media/insta_profile1.jpg')} alt='instagram mockups'/>
+                    <img className='two-row' src={require('assets/images/designProjects/ChoJuice/social_media/insta_profile2.jpg')} alt='instagram mockups'/>
+                    <img className='two-row' src={require('assets/images/designProjects/ChoJuice/social_media/insta_story1.jpg')} alt='instagram mockups'/>
+                    <img className='two-row' src={require('assets/images/designProjects/ChoJuice/social_media/insta_story2.jpg')} alt='instagram mockups'/>
+                    <img className='two-row' src={require('assets/images/designProjects/ChoJuice/social_media/insta_story3.jpg')} alt='instagram mockups'/>
+                    <img className='two-row' src={require('assets/images/designProjects/ChoJuice/social_media/insta_story4.jpg')} alt='instagram mockups'/>
+                </div>
+                <img className='one-row' src={require('assets/images/designProjects/ChoJuice/social_media/twitter_banner.jpg')} alt='twitter mockup'/>
             </div>
             <div>
                 <h2>Posters</h2>
-                <p>images here</p>
+                <img className='one-row' src={require('assets/images/designProjects/ChoJuice/posters/poster_pink.jpg')} alt='poster mockup'/>
+                <div className='flex-container'>
+                    <img className='three-row' src={require('assets/images/designProjects/ChoJuice/posters/poster_green.jpg')} alt='poster mockup'/>
+                    <img className='three-row' src={require('assets/images/designProjects/ChoJuice/posters/poster_orange.jpg')} alt='poster mockup'/>
+                    <img className='three-row' src={require('assets/images/designProjects/ChoJuice/posters/poster_purple.jpg')} alt='poster mockup'/>
+                </div>
             </div>
         </div>
      );

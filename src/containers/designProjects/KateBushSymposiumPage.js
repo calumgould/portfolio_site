@@ -1,11 +1,13 @@
 import React from 'react';
+import SlideshowComponent from 'components/SlideshowComponent';
+import eventImages from 'components/subComponents/KateEventImages'
 
 const KateBushSymposium = () => {
     return ( 
         <div>
             <div>
                 <h1>Kate Bush Symposium</h1>
-                <p>mockup image here</p>
+                <img className='hero' src={require('assets/images/designProjects/KateBush/kate_bush_poster.jpg')} alt='symposium poster'/>
                 <p>
                 Freelance project for the University of Edinburgh
                 <br /><br />
@@ -20,11 +22,19 @@ const KateBushSymposium = () => {
             </div>
             <div>
                 <h2>Final Designs</h2>
-                <p>images here</p>
+                <img className='one-row' src={require('assets/images/designProjects/KateBush/kate_spreads.jpg')} alt='symposium poster'/>
+                <img className='one-row' src={require('assets/images/designProjects/KateBush/kate_spread1.jpg')} alt='symposium poster'/>
+                <div className='flex-container'>
+                    <img className='two-row' src={require('assets/images/designProjects/KateBush/postcard_front.jpg')} alt='symposium poster'/>
+                    <img className='two-row' src={require('assets/images/designProjects/KateBush/postcard_back.jpg')} alt='symposium poster'/>
+                    <img className='two-row' src={require('assets/images/designProjects/KateBush/pin_vote.jpg')} alt='symposium poster'/>
+                    <img className='two-row' src={require('assets/images/designProjects/KateBush/pin_work.jpg')} alt='symposium poster'/>
+                    <img className='two-row' src={require('assets/images/designProjects/KateBush/tote_bag.jpg')} alt='symposium poster'/>
+                </div>
             </div>
             <div>
                 <h2>The Event</h2>
-                <p>images here</p>
+                <SlideshowComponent slideImages={eventImages} />
             </div>
         </div>
      );
