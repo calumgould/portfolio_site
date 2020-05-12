@@ -35,7 +35,13 @@ const GarvaldArtistsPage = () => {
             <div>
                 <h2 className='project-subheader'>Publication Spreads</h2>
                 <div className='flex-container'>
-                    publication spread images
+                    <img className='two-row' src={require('assets/images/designProjects/GarvaldArtists/spreads/spread2.jpg')} alt='booklet spreads'/>
+                    <img className='two-row' src={require('assets/images/designProjects/GarvaldArtists/spreads/spread3.jpg')} alt='booklet spreads'/>
+                    <img className='two-row' src={require('assets/images/designProjects/GarvaldArtists/spreads/spread4.jpg')} alt='booklet spreads'/>
+                    <img className='two-row' src={require('assets/images/designProjects/GarvaldArtists/spreads/spread5.jpg')} alt='booklet spreads'/>
+                    <img className='two-row' src={require('assets/images/designProjects/GarvaldArtists/spreads/spread6.jpg')} alt='booklet spreads'/>
+                    <img className='two-row' src={require('assets/images/designProjects/GarvaldArtists/spreads/spread7.jpg')} alt='booklet spreads'/>
+                    <img className='two-row' src={require('assets/images/designProjects/GarvaldArtists/spreads/spread8.jpg')} alt='booklet spreads'/>
                 </div>
             </div>
             <div>
