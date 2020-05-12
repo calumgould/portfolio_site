@@ -3,28 +3,25 @@
     height: 100vh;
     display: flex;
     position: fixed;
-    justify-content: center;
-    align-items: center;
     top: 0;
     left: 0;
     overflow: hidden;
     z-index: -1;
 }
 
-.half-page {
+.half-page{
     display: flex;
-    position: relative;
     justify-content: center;
     align-items: center;
     width: 50%;
     height: 100%;
-    background-size: cover;
-    background-position: center;
-    transition: all 0.3s ease-in-out;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.3s ease-in-out;
 }
 
 .half-page:hover {
-    opacity: 0.9;
     cursor: pointer;
-    transform: scale(1.2);
+    background-size: 110%;
 }
