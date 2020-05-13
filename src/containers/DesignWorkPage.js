@@ -10,12 +10,12 @@ class Work extends Component {
         super(props);
         this.state = { 
             designProjects: designProjects
-        }
+        } 
     }
     render() { 
         return (
             <div>
-                <h1>Work</h1>
+                <h1 className='project-header'>Work</h1>
                 <ProjectsGrid designProjects={this.state.designProjects} history={this.props.history}/>
             </div>
 
