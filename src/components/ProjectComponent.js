@@ -1,10 +1,9 @@
 import React from 'react';
 
-import 'styles/Project.css'
 
 const Project = (props) => {
     return ( 
-        <div>
+        <div className='project-item'>
             <img
             className="image" 
             src={props.src} 

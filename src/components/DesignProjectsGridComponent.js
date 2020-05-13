@@ -18,7 +18,7 @@ const ProjectsGrid = (props) => {
     })
 
     return ( 
-        <div>
+        <div className='project-grid'>
             {projectNodes}
         </div>
      );
