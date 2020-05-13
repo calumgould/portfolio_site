@@ -8,6 +8,7 @@ import Work from 'containers/WorkPage';
 import DesignWork from 'containers/DesignWorkPage';
 import About from 'containers/AboutPage';
 import Error from 'components/ErrorComponent';
+import ScrollToTop from 'components/ScrollToTop';
 
 import DesignRoutesComponent from 'components/DesignRoutesComponent'
 import ProgrammingWorkPage from 'containers/ProgrammingWorkPage';
@@ -18,6 +19,7 @@ const Main = () => {
     return ( 
         <Router history={history}>
             <div>
+                <ScrollToTop />
                 <NavBar />
                 <Switch>
                     <Route exact path ='/' component={Home} />
