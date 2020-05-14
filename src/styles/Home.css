@@ -1,3 +1,4 @@
+
 .home-page {
     position: fixed;
     display: flex;
@@ -9,9 +10,10 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-image: url(../assets//images/design_background.jpg);
+    background-color: var(--background);
+    /* background-image: url(../assets//images/design_background.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 .logo {
@@ -26,7 +28,7 @@
 .button {
     border: none;
     border-radius: 4em;
-    background-color: slategrey;
+    background-color: var(--primary);
     padding: 1em 2em;
     color: ghostwhite;
     font-size: 1em;

@@ -1,6 +1,18 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #FF0266;
+    --secondary: ghostwhite;
+    --background: #212121;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--secondary)
 }
 
 .project-header {

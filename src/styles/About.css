@@ -14,22 +14,21 @@
 }
 
 .about-text a {
-    color: black;
+    color: var(--secondary);
     text-decoration: none;
 }
 
 .about-text a:hover {
-    color: slategrey;
+    color: var(--primary);
 }
 
 .about-skills {
     width: 17%;
     text-align: left;
-    border: 2px solid black;
+    border: 2px solid var(--primary);
     padding: 5% 0 5% 5%;
     margin-left: 3%;
     font-size: 1.5em;
-    background-color: lightgrey;
 }
 
 .about-skills li, .about-text li {

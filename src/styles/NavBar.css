@@ -11,13 +11,18 @@
 
 .link {
     text-decoration: none;
-    color: black;
+    color: inherit;
     display: inline-block;
     padding: 1em 1.5em;
 }
 
+.link:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
 .link:hover {
-    background-color: lightgray;
+    background-color: var(--primary);
 }
 
 .link-active {
