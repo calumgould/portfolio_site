@@ -7,7 +7,7 @@ const Home = ({history}) => {
         <div className='home-page'>
             <div>
                 <div className='logo'>
-                    <img src={require('assets/images/logo_black.png')}alt='logo' />
+                    <img src={require('assets/images/logo_white.png')}alt='logo' />
                 </div>
 
                 <div className='details'>   
