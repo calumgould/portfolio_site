@@ -1,13 +1,14 @@
 import React from 'react';
-import Project from './DesignProjectComponent';
+import Project from './ProgrammingProjectComponent';
 
 const ProjectsGrid = (props) => {
 
-    const projectNodes = props.designProjects.map(project => {
+    const projectNodes = props.programmingProjects.map(project => {
         return (
             <Project
                 key={project.id}
                 title={project.title}
+                info={project.info}
                 year={project.year}
                 src={project.src}
                 alt={project.alt}

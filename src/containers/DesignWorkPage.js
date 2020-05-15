@@ -1,11 +1,10 @@
 import React from 'react';
 
-import 'styles/DesignWork.css';
-import designProjects from 'components/subComponents/designProjectsComponent';
-
+import 'styles/WorkGrid.css';
+import designProjects from 'components/subComponents/designProjects';
 import ProjectsGrid from 'components/DesignProjectsGridComponent';
 
-const Work = ({history}) => {
+const DesignWork = ({history}) => {
     return ( 
         <div>
             <h1 className='project-header'>Work</h1>
@@ -14,4 +13,4 @@ const Work = ({history}) => {
      );
 }
  
-export default Work;
+export default DesignWork;
