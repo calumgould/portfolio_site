@@ -2,12 +2,22 @@ import React from 'react';
 
 import 'styles/Home.css';
 
-const Home = ({history}) => {
+const Home = ({history, darkMode}) => {
+
+    const chooseLogoColour = () => {
+        if(darkMode) {
+            return <img src={require('assets/images/logo_white.png')}alt='logo' />
+        } else {
+            return <img src={require('assets/images/logo_black.png')}alt='logo' />
+        }
+    }
+
+
     return ( 
         <div className='home-page'>
             <div>
                 <div className='logo'>
-                    <img src={require('assets/images/logo_white.png')}alt='logo' />
+                    {chooseLogoColour()}
                 </div>
 
                 <div className='details'>   
@@ -15,7 +25,7 @@ const Home = ({history}) => {
                     <h2>Software Developer</h2>
                 </div>
 
-                <button className='button' onClick={() => history.push('/Work')}>
+                <button className='button' onClick={() => history.push('/work')}>
                     Continue
                 </button>
             </div>    

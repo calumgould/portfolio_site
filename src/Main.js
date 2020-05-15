@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import {createBrowserHistory} from 'history';
 
@@ -16,13 +16,20 @@ import ProgrammingWorkPage from 'containers/ProgrammingWorkPage';
 const history = createBrowserHistory();
 
 const Main = () => {
+
+    const getDarkModeState = (darkModeState) => {
+        setDarkMode(darkModeState)
+    }
+
+    const [darkMode, setDarkMode] = useState(true)
+
     return ( 
         <Router history={history}>
             <div>
                 <ScrollToTop />
-                <NavBar />
+                <NavBar getToggleState={(darkModeState) => getDarkModeState(darkModeState)}/>
                 <Switch>
-                    <Route exact path ='/' component={Home} />
+                    <Route exact path ='/' render={(props) => <Home {...props} darkMode={darkMode} />} />
                     <Route exact path ='/work' component={Work} />
                     <Route exact path ='/work/design' component={DesignWork} />
                     <Route exact path ='/work/programming' component={ProgrammingWorkPage} />

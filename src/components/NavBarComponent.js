@@ -38,6 +38,7 @@ class NavBar extends Component {
                 logoColour: 'black',
             })
         }
+        this.props.getToggleState(this.state.darkMode)
     }
     
     render() { 
