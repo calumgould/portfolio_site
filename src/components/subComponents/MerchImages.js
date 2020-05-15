@@ -30,9 +30,6 @@ import image29 from 'assets/images/designProjects/GarvaldArtists/merch/tea_towel
 import image30 from 'assets/images/designProjects/GarvaldArtists/merch/wrapping_paper1.jpg'
 import image31 from 'assets/images/designProjects/GarvaldArtists/merch/wrapping_paper2.jpg'
 
-
-
-
 const slideImages = [
     image1,
     image2,
