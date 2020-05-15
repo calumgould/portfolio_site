@@ -10,7 +10,7 @@ import About from 'containers/AboutPage';
 import Error from 'components/ErrorComponent';
 import ScrollToTop from 'components/ScrollToTop';
 
-import DesignRoutesComponent from 'components/DesignRoutesComponent'
+import ProjectRoutesComponent from 'components/ProjectRoutesComponent';
 import ProgrammingWorkPage from 'containers/ProgrammingWorkPage';
 
 const history = createBrowserHistory();
@@ -34,7 +34,7 @@ const Main = () => {
                     <Route exact path ='/work/design' component={DesignWork} />
                     <Route exact path ='/work/programming' component={ProgrammingWorkPage} />
                     <Route path ='/about' component={About} />
-                    <DesignRoutesComponent />
+                    <ProjectRoutesComponent />
                     <Route component={Error} />
                 </Switch>
             </div>

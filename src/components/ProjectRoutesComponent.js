@@ -10,6 +10,11 @@ import PuppetAnimationScotlandPage from 'containers/designProjects/PuppetAnimati
 import TheVeryHungryCaterpillarPage from 'containers/designProjects/TheVeryHungryCaterpillarPage';
 import PersonalTrainerBrandingPage from 'containers/designProjects/PersonalTrainerBrandingPage';
 
+import SpendPage from 'containers/programmingProjects/SpendPage';
+import ImgSpendPage from 'containers/programmingProjects/ImgSpendPage';
+import StoraclePage from 'containers/programmingProjects/StoraclePage';
+import HabbitPage from 'containers/programmingProjects/HabbitPage';
+
 
 const DesignRoutes = () => {
     return ( 
@@ -22,6 +27,10 @@ const DesignRoutes = () => {
             <Route path ='/work/design/puppet-animation-scotland' component={PuppetAnimationScotlandPage}></Route>
             <Route path ='/work/design/the-very-hungry-caterpillar' component={TheVeryHungryCaterpillarPage}></Route>
             <Route path ='/work/design/personal-trainer-branding' component={PersonalTrainerBrandingPage}></Route>
+            <Route path ='/work/programming/spend' component={SpendPage}></Route>
+            <Route path ='/work/programming/imgspend' component={ImgSpendPage}></Route>
+            <Route path ='/work/programming/storacle' component={StoraclePage}></Route>
+            <Route path ='/work/programming/habbit' component={HabbitPage}></Route>
         </Switch>
         
      );
