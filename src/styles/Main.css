@@ -8,8 +8,8 @@
     --primary: #FF0266;
     --secondary: #FFFFFF;
     --background: #212121;
-    --header-text: 'Roboto Slab';
-    --body-text: 'Open Sans'
+    --header-text: 'RobotoSlab';
+    --body-text: 'OpenSans'
 }
 
 body {
@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5 {
     font-family: var(--header-text);
 }
 
-p {
+p, li {
     font-family: var(--body-text);
 }
 
