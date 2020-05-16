@@ -8,28 +8,46 @@
     left: 0;
     overflow: hidden;
     z-index: -1;
+    
 }
 
 .half-page{
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     width: 50%;
     height: 100%;
-    background-size: 100%;
+    background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;
-    transition: 0.3s ease-in-out;
-}
-
-.half-page:hover {
+    overflow: hidden;
     cursor: pointer;
-    background-size: 110%;
+    transition: 0.4s ease-in-out;
 }
 
-.half-page h2 {
+.half-page::before {
+    content:'';
+    position: absolute;
+    top:0;
+    right:0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    transition: inherit;
+}
+
+.half-page:hover::before {
+    transform: scale(1.1);
+}
+
+.content {
+    position: relative;
+}
+
+.content h2 {
     font-size: 2em;
     background-color: var(--background);
     border: 2px solid var(--primary);
     padding: 0.5em 1.5em;
 }
+

@@ -21,12 +21,17 @@ const WorkPage = ({history}) => {
                 <div className='half-page' 
                     onClick={() => history.push('/work/design')}
                     style={designBackground}>
-                    <h2>Design</h2>
+                    <div className='content'>
+                        <h2>Design</h2>
+                    </div>
+                    
                 </div>
                 <div className='half-page' 
                     onClick={() => history.push('/work/programming')}
                     style={programmingBackground}>
-                    <h2>Programming</h2>
+                    <div className='content'>
+                        <h2>Programming</h2>
+                    </div>
                 </div>
             </div>
         </div>
