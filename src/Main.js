@@ -14,7 +14,7 @@ import Footer from 'components/Footer';
 import ProjectRoutesComponent from 'components/ProjectRoutesComponent';
 import ProgrammingWorkPage from 'containers/ProgrammingWorkPage';
 
-import 'styles/Main.css'
+import 'styles/index.css'
 
 const history = createBrowserHistory();
 

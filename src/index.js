@@ -4,14 +4,6 @@ import 'styles/index.css';
 import App from './App';
 import * as serviceWorker from 'serviceWorker';
 
-import 'assets/fonts/OpenSans-Bold.ttf';
-import 'assets/fonts/OpenSans-Light.ttf';
-import 'assets/fonts/OpenSans-Regular.ttf';
-import 'assets/fonts/RobotoSlab-Bold.ttf';
-import 'assets/fonts/RobotoSlab-ExtraBold.ttf';
-import 'assets/fonts/RobotoSlab-Light.ttf';
-import 'assets/fonts/RobotoSlab-Regular.ttf';
-
 ReactDOM.render(
   <React.StrictMode>
     <App />

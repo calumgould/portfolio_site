@@ -3,7 +3,6 @@ import {NavLink} from 'react-router-dom';
 import Switch from 'react-switch';
 
 import 'styles/NavBar.css';
-import 'styles/Main.css';
 
 const NavBar = (props) => {
 
