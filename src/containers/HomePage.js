@@ -22,7 +22,7 @@ const Home = ({history, darkMode}) => {
 
                 <div className='details'>   
                     <h1>Calum Gould</h1>
-                    <h2>Software Developer</h2>
+                    <p>Software Developer</p>
                 </div>
 
                 <button className='button' onClick={() => history.push('/work')}>

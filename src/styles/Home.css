@@ -21,6 +21,7 @@
 .details {
     width: 100%;
     padding: 2em 0;
+    font-size: 1.5em;
 }
 
 .button {
@@ -31,6 +32,9 @@
     color: ghostwhite;
     font-size: 1em;
     outline: none;
+    font-family: var(--header-text);
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 .button:hover {

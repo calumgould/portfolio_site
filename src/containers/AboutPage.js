@@ -34,7 +34,7 @@ const About = () => {
                     </p>
                     <br />
                     <p>
-                        If you want to get in touch, please email me at: <b>calumgould26@gmail.com</b>
+                        If you want to get in touch, please email me at: <b><a href='mailto:calumgould26@gmail.com'>calumgould26@gmail.com</a></b>
                     </p>
                     <br />
                     <h3>Education</h3>
