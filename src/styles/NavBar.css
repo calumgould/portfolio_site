@@ -1,18 +1,27 @@
 .nav {
-    margin-bottom: 3em;
-    width: 100%;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav li {
-    list-style: none;
-    display: inline;
     font-size: 1.5em;
+    display: inline-block
+}
+
+.nav li img {
+    left: 0;
+    top: 0;
+    position: absolute;
+    padding: 1em 1.5em;
+    height: 77px;
+    width: auto;
 }
 
 .link {
     text-decoration: none;
-    color: inherit;
     display: inline-block;
+    color: inherit;
     padding: 1em 1.5em;
 }
 
@@ -29,8 +38,8 @@
     text-decoration: underline;
 }
 
-.toggle-switch {
-    position: fixed;
-    top: 3%;
-    right: 3%;
+.toggle-button {
+    right: 0;
+    position: absolute;
+    padding: 1em 1.5em;
 }

@@ -6,9 +6,9 @@ const Home = ({history, darkMode}) => {
 
     const chooseLogoColour = () => {
         if(darkMode) {
-            return <img src={require('assets/images/logo_white.png')}alt='logo' />
+            return <img src={require('assets/images/logo_white.png')} alt='logo' />
         } else {
-            return <img src={require('assets/images/logo_black.png')}alt='logo' />
+            return <img src={require('assets/images/logo_black.png')} alt='logo' />
         }
     }
 

@@ -25,10 +25,21 @@ const NavBar = (props) => {
     const handleModeChange = (checked) => {
         setDarkMode(checked)
     }
+
+    const chooseLogoColour = () => {
+        if(darkMode) {
+            return <img src={require('assets/images/logo_white.png')} alt='logo' />
+        } else {
+            return <img src={require('assets/images/logo_black.png')} alt='logo' />
+        }
+    }
     
     return ( 
         <div>
             <ul className='nav'>
+                <li>
+                    {chooseLogoColour()}
+                </li>
                 <li>
                     <NavLink 
                     className='link'                      activeClassName='link-active'
@@ -51,26 +62,25 @@ const NavBar = (props) => {
                     to="/about">
                     About
                     </NavLink>
+                </li>   
+                <li className='toggle-button'>
+                    <p id='no-click-label'></p>
+                        <Switch
+                            onChange={handleModeChange}
+                            checked={darkMode}
+                            onColor='#FF0266'
+                            offColor='#D3D3D3'
+                            onHandleColor='#F8F8FF'
+                            offHandleColor='#212121'
+                            checkedIcon={false}
+                            uncheckedIcon={false}
+                            handleDiameter={30}
+                            height={20}
+                            width={48}
+                            aria-labelledby='no-click-label'
+                        />
                 </li>
             </ul>
-                
-            <div className='toggle-switch'>
-                <p id='no-click-label'></p>
-                    <Switch
-                        onChange={handleModeChange}
-                        checked={darkMode}
-                        onColor='#FF0266'
-                        offColor='#D3D3D3'
-                        onHandleColor='#F8F8FF'
-                        offHandleColor='#212121'
-                        checkedIcon={false}
-                        uncheckedIcon={false}
-                        handleDiameter={30}
-                        height={20}
-                        width={48}
-                        aria-labelledby='no-click-label'
-                    />
-            </div>
         </div>
     );
 }

@@ -16,7 +16,7 @@ const programmingProjects = [
     {
         id:2,
         title: 'ImgSpend',
-        info: 'Vue.js | JavaScript, Express, Canvas, Web APIs',
+        info: 'Vue.js | JavaScript, Express, Web APIs',
         year: '2020',
         src: imgSpend,
         alt: 'imgSpend logo banner',
