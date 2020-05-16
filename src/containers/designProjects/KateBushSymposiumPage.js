@@ -2,6 +2,8 @@ import React from 'react';
 import SlideshowComponent from 'components/SlideshowComponent';
 import eventImages from 'components/subComponents/KateEventImages'
 
+import 'styles/Projects.css';
+
 const KateBushSymposium = () => {
     return ( 
         <div>

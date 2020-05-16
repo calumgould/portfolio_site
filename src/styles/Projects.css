@@ -1,0 +1,65 @@
+.project-header {
+    font-size: 3em;
+    padding-bottom: 1em;
+}
+
+.project-subheader {
+    font-size: 3em;
+    padding: 2em 0 0.5em 0;
+}
+
+.hero {
+    width: 70%;
+}
+
+.project-description {
+    width: 28%;
+    text-align: left;
+    font-size: 1.5em;
+    margin-left: 2%;
+}
+
+.flex-container {
+    display: flex;
+    width: 90%;
+    margin: 0 5%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.one-row {
+    width: 88%;
+    margin: 0 5%;
+}
+
+.two-row {
+    width: 49%;
+    margin: 0.5%;
+}
+
+.three-row {
+    width: 32%;
+    margin: 0.5%;
+}
+
+.two-column-grid {
+    justify-content: center;
+    column-count: 2;
+    line-height: 0;
+    column-gap: 1%;
+    text-align: center;
+    margin: 2em 5%;
+}
+
+.grid-image {
+    width: 100%;
+    margin-bottom: 2%;
+    vertical-align: middle;
+}
+
+.video-demo {
+    height: 80vh;
+    width: auto;
+}

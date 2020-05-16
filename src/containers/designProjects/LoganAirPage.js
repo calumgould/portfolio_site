@@ -1,5 +1,6 @@
 import React from 'react';
-import 'styles/Main.css';
+
+import 'styles/Projects.css';
 
 const LoganAirPage = () => {
     return ( 

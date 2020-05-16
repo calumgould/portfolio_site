@@ -1,7 +1,8 @@
 import React from 'react';
-import 'styles/Main.css'
 import SlideshowComponent from 'components/SlideshowComponent';
 import CaterpillarPages from 'components/subComponents/CaterpillarPages';
+
+import 'styles/Projects.css';
 
 const TheVeryHungryCaterpillarPage = () => {
 

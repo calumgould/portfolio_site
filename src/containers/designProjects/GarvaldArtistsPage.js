@@ -2,6 +2,8 @@ import React from 'react';
 import SlideshowComponent from 'components/SlideshowComponent';
 import merchImages from 'components/subComponents/MerchImages';
 
+import 'styles/Projects.css';
+
 const GarvaldArtistsPage = () => {
     return ( 
         <div>

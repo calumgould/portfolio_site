@@ -60,9 +60,9 @@ const NavBar = (props) => {
                         onChange={handleModeChange}
                         checked={darkMode}
                         onColor='#FF0266'
-                        offColor='#00CED1'
+                        offColor='#D3D3D3'
                         onHandleColor='#F8F8FF'
-                        offHandleColor='#FFD700'
+                        offHandleColor='#212121'
                         checkedIcon={false}
                         uncheckedIcon={false}
                         handleDiameter={30}
