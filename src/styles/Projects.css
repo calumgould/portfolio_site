@@ -19,6 +19,24 @@
     margin-left: 2%;
 }
 
+.app-description {
+    font-size: 1.5em;
+}
+
+.app-description a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.app-description a:hover {
+    text-decoration: underline;
+    opacity: 0.9;
+}
+
+.features-list li {
+    font-size: 1.2em;
+}
+
 .flex-container {
     display: flex;
     width: 90%;
@@ -62,4 +80,5 @@
 .video-demo {
     height: 80vh;
     width: auto;
+    margin: 3vh 0;
 }

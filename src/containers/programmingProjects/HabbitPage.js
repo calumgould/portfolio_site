@@ -6,30 +6,33 @@ import 'styles/Projects.css'
 const Habbit = () => {
     return (   
         <div>
-            <h1>Habbit</h1>
-            <p>
+            <h1 className='project-header'>Habbit</h1>
+            <p className='app-description'>
                 A mobile app, aimed to increase physical activity and build healthy habits.
-                <br />
+                <br /><br />
                 <b>React Native | JavaScript, SQLite</b>
-            </p>
-            <p>
+                <br /><br />
                 <b><a href='https://github.com/calumgould/habbit_react_native_project' target='_blank' rel='noopener noreferrer'>GitHub</a></b>
             </p>
             <video className='video-demo' loop autoPlay>
                 <source src={habbitDemo} type='video/mp4' />
             </video>
-            <p>
+            <p className='app-description'>
                 Habbit is a mobile app, inspried by Tamagotchi. 
                 <br /><br />
-                <b>Features include:</b>
-                <br />
-                <ul>
-                    <li>User can name their pet</li>
-                    <li>Pet can grow based on user activity (step count)</li>
-                    <li>Progress bar that dynamically fills as more steps are added, and resets each growth stage</li>
-                    <li>User can interact with pet by tapping on it (animation & sound)</li>
-                </ul>
+                <b>Features:</b>
+                <br /><br />
             </p>
+                <ul className='features-list'>
+                    <li>- User can name their pet</li>
+                    <br />
+                    <li>- Pet can grow based on user activity (step count)</li>
+                    <br />
+                    <li>- Progress bar that dynamically fills as more steps are added, and resets each growth stage</li>
+                    <br />
+                    <li>- User can interact with pet by tapping on it (animation & sound)</li>
+                    <br />
+                </ul>
         </div>
      );
 }

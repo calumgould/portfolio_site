@@ -5,30 +5,33 @@ import imgSpendDemo from 'assets/images/programmingProjects/ImgSpend/imgSpend_de
 const ImgSpend = () => {
     return ( 
         <div>
-            <h1>ImgSpend</h1>
-            <p>
+            <h1 className='project-header'>ImgSpend</h1>
+            <p className='app-description'>
                 A web-app gallery using the Unsplash API
-                <br />
+                <br /><br />
                 <b>Vue.js | JavaScript, WebAPIs</b>
-            </p>
-            <p>
+                <br /><br />
                 <b><a href='https://github.com/calumgould/image_library_vue_api' target='_blank' rel='noopener noreferrer'>GitHub</a></b>
             </p>
             <video className='video-demo' loop autoPlay>
                 <source src={imgSpendDemo} type='video/mp4' />
             </video>
-            <p>
+            <p className='app-description'>
                 ImgSpend is a web-app that fetches and displays random images from the Unsplash image API. 
                 <br /><br />
-                <b>Features include:</b>
-                <br />
-                <ul>
-                    <li>Fetching of 50 random images, displayed in a responsive grid</li>
-                    <li>Load more images on the page (10 at a time)</li>
-                    <li>Load an entirely new set of images</li>
-                    <li>Clickable images with link to the Unsplash page & author details</li>
-                </ul>
+                <b>Features:</b>
+                <br /><br />
             </p>
+                <ul className='features-list'>
+                    <li>- Fetching of 50 random images, displayed in a responsive grid</li>
+                    <br />
+                    <li>- Load more images on the page (10 at a time)</li>
+                    <br />
+                    <li>- Load an entirely new set of images</li>
+                    <br />
+                    <li>- Clickable images with link to the Unsplash page & author details</li>
+                    <br />
+                </ul>
         </div>
      );
 }

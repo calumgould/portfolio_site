@@ -7,7 +7,7 @@ import ProjectsGrid from 'components/ProgrammingProjectsGridComponent'
 const ProgrammingWorkPage = ({history}) => {
     return ( 
         <div>
-            <h1 className='project-header'>Work</h1>
+            <h1 className='project-header'>Programming Work</h1>
             <ProjectsGrid programmingProjects={programmingProjects} history={history}/>
         </div>
      );
