@@ -10,9 +10,11 @@ const Project = (props) => {
             alt={props.alt}
             onClick={() => props.history.push(`/work/programming/${props.path}`)}
             />
-            <h3>{props.title}</h3>
-            <h4>{props.info}</h4>
-            <h5>{props.year}</h5>
+            <div className='project-item-text'>
+                <h3>{props.title}</h3>
+                <p>{props.info}</p>
+                <p>{props.year}</p>
+            </div>
         </div>
      );
 }

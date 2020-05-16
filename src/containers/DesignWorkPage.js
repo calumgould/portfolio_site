@@ -1,6 +1,6 @@
 import React from 'react';
 
-import 'styles/WorkGrid.css';
+import 'styles/ProjectsGrid.css';
 import designProjects from 'components/subComponents/designProjects';
 import ProjectsGrid from 'components/DesignProjectsGridComponent';
 
