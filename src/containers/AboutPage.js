@@ -27,7 +27,7 @@ const About = () => {
                     <br />
                     <p>
                         For a full list of skills, please visit out my
-                            <a href='https://www.linkedin.com/in/calum-gould/'> 
+                            <a href='https://www.linkedin.com/in/calum-gould/' target='_blank' rel='noopener noreferrer'> 
                                 <b> LinkedIn </b> 
                             </a>
                         profile
