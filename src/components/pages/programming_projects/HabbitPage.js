@@ -1,7 +1,6 @@
 import React from 'react';
 
-import habbitDemo from 'assets/images/programmingProjects/Habbit/habbit_demo.mov'
-import 'styles/Projects.css'
+import habbitDemo from 'assets/images/programming_projects/habbit/habbit_demo.mov'
 
 const Habbit = () => {
     return (   

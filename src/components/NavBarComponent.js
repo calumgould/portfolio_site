@@ -27,9 +27,9 @@ const NavBar = (props) => {
 
     const chooseLogoColour = () => {
         if(darkMode) {
-            return <img src={require('assets/images/logo_white.png')} alt='logo' />
+            return <img src={require('assets/images/other/logo_white.png')} alt='logo' />
         } else {
-            return <img src={require('assets/images/logo_black.png')} alt='logo' />
+            return <img src={require('assets/images/other/logo_black.png')} alt='logo' />
         }
     }
     

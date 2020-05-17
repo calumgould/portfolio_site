@@ -1,6 +1,6 @@
 import React from 'react';
-import designImage from 'assets/images/design_background.jpg';
-import programmingImage from 'assets/images/programming_background.jpg';
+import designImage from 'assets/images/other/design_background.jpg';
+import programmingImage from 'assets/images/other/programming_background.jpg';
 
 import 'styles/Work.css'
 

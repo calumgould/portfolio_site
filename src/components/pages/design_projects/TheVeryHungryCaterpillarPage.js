@@ -1,6 +1,6 @@
 import React from 'react';
 import SlideshowComponent from 'components/SlideshowComponent';
-import CaterpillarPages from 'components/subComponents/CaterpillarPages';
+import CaterpillarPages from 'components/imports/CaterpillarPages';
 
 import 'styles/Projects.css';
 
@@ -11,7 +11,7 @@ const TheVeryHungryCaterpillarPage = () => {
             <div>
                 <h1 className='project-header'>The Very Hungry Caterpillar</h1>
                 <div className='flex-container'>
-                    <img className='hero' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_front.jpg')} alt='business card mockup'/>
+                    <img className='hero' src={require('assets/images/design_projects/hungry_caterpillar/mockups/mockup_front.jpg')} alt='business card mockup'/>
                     <p className='project-description'>
                     A-Level Graphic Design project to redesign and illustrate a children's book.
                     <br /><br />
@@ -25,12 +25,12 @@ const TheVeryHungryCaterpillarPage = () => {
             <div>
                 <h2 className='project-subheader'>Book</h2>
                 <div className='two-column-grid'>
-                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside1.jpg')} alt='book mockup'/>
-                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside2.jpg')} alt='book mockup'/>
-                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside3.jpg')} alt='book mockup'/>
-                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside4.jpg')} alt='book mockup'/>
-                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside5.jpg')} alt='book mockup'/>
-                    <img className='grid-image' src={require('assets/images/designProjects/HungryCaterpillar/mockups/mockup_inside6.jpg')} alt='book mockup'/>
+                    <img className='grid-image' src={require('assets/images/design_projects/hungry_caterpillar/mockups/mockup_inside1.jpg')} alt='book mockup'/>
+                    <img className='grid-image' src={require('assets/images/design_projects/hungry_caterpillar/mockups/mockup_inside2.jpg')} alt='book mockup'/>
+                    <img className='grid-image' src={require('assets/images/design_projects/hungry_caterpillar/mockups/mockup_inside3.jpg')} alt='book mockup'/>
+                    <img className='grid-image' src={require('assets/images/design_projects/hungry_caterpillar/mockups/mockup_inside4.jpg')} alt='book mockup'/>
+                    <img className='grid-image' src={require('assets/images/design_projects/hungry_caterpillar/mockups/mockup_inside5.jpg')} alt='book mockup'/>
+                    <img className='grid-image' src={require('assets/images/design_projects/hungry_caterpillar/mockups/mockup_inside6.jpg')} alt='book mockup'/>
                 </div> 
             </div>
             <div>

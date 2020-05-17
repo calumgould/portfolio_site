@@ -1,7 +1,7 @@
 import React from 'react';
 
 import 'styles/ProjectsGrid.css'
-import programmingProjects from 'components/subComponents/programmingProjects'
+import programmingProjects from 'components/imports/ProgrammingProjects'
 import ProjectsGrid from 'components/ProgrammingProjectsGridComponent'
 
 const ProgrammingWorkPage = ({history}) => {

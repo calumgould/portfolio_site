@@ -1,6 +1,6 @@
 import React from 'react';
 
-import spendDemo from 'assets/images/programmingProjects/Spend/spend_demo.mov'
+import spendDemo from 'assets/images/programming_projects/spend/spend_demo.mov'
 
 
 const SpendPage = () => {

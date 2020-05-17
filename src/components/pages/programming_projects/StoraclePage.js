@@ -1,6 +1,6 @@
 import React from 'react';
 
-import storacleDemo from 'assets/images/programmingProjects/Storacle/storacle_demo.mov'
+import storacleDemo from 'assets/images/programming_projects/storacle/storacle_demo.mov'
 
 
 const Storacle = () => {

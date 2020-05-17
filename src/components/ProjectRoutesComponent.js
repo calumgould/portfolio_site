@@ -1,19 +1,19 @@
 import React from 'react';
 import {BrowserRouter as Switch, Route} from 'react-router-dom';
 
-import KateBushSymposiumPage from 'containers/designProjects/KateBushSymposiumPage';
-import ChoJuicePage from 'containers/designProjects/ChoJuicePage';
-import HeinzPage from 'containers/designProjects/HeinzPage';
-import GarvaldArtistsPage from 'containers/designProjects/GarvaldArtistsPage';
-import LoganAirPage from 'containers/designProjects/LoganAirPage';
-import PuppetAnimationScotlandPage from 'containers/designProjects/PuppetAnimationScotlandPage';
-import TheVeryHungryCaterpillarPage from 'containers/designProjects/TheVeryHungryCaterpillarPage';
-import PersonalTrainerBrandingPage from 'containers/designProjects/PersonalTrainerBrandingPage';
+import KateBushSymposiumPage from 'components/pages/design_projects/KateBushSymposiumPage';
+import ChoJuicePage from 'components/pages/design_projects/ChoJuicePage';
+import HeinzPage from 'components/pages/design_projects/HeinzPage';
+import GarvaldArtistsPage from 'components/pages/design_projects/GarvaldArtistsPage';
+import LoganAirPage from 'components/pages/design_projects/LoganAirPage';
+import PuppetAnimationScotlandPage from 'components/pages/design_projects/PuppetAnimationScotlandPage';
+import TheVeryHungryCaterpillarPage from 'components/pages/design_projects/TheVeryHungryCaterpillarPage';
+import PersonalTrainerBrandingPage from 'components/pages/design_projects/PersonalTrainerBrandingPage';
 
-import SpendPage from 'containers/programmingProjects/SpendPage';
-import ImgSpendPage from 'containers/programmingProjects/ImgSpendPage';
-import StoraclePage from 'containers/programmingProjects/StoraclePage';
-import HabbitPage from 'containers/programmingProjects/HabbitPage';
+import SpendPage from 'components/pages/programming_projects/SpendPage';
+import ImgSpendPage from 'components/pages/programming_projects/ImgSpendPage';
+import StoraclePage from 'components/pages/programming_projects/StoraclePage';
+import HabbitPage from 'components/pages/programming_projects/HabbitPage';
 
 
 const DesignRoutes = () => {

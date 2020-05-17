@@ -34,6 +34,7 @@
 
 .about-skills li, .about-text li {
     list-style: none;
+    font-family: var(--body-text);
 }
 
 .about-image {

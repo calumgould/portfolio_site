@@ -1,6 +1,6 @@
 import React from 'react';
 import SlideshowComponent from 'components/SlideshowComponent';
-import PASPages from 'components/subComponents/PASPages';
+import PASPages from 'components/imports/PASPages';
 
 import 'styles/Projects.css';
 
@@ -10,7 +10,7 @@ const PuppetAnimationScotlandPage = () => {
             <div>
                 <h1 className='project-header'>Puppet Animation Scotland</h1>
                 <div className='flex-container'>
-                    <img className='hero' src={require('assets/images/designProjects/PuppetAnimation/mockups/mockup_inside1.jpg')} alt='puppet animation spreads'/>
+                    <img className='hero' src={require('assets/images/design_projects/puppet_animation/mockups/mockup_inside1.jpg')} alt='puppet animation spreads'/>
                     <p className='project-description'>
                     Puppet Animation Scotland brand overhaul to bring all their existing events and workshops into one concise publication to be given out to potential clients/event attendees to showcase  Puppet Animation Scotland.
                     <br /><br />
@@ -23,12 +23,12 @@ const PuppetAnimationScotlandPage = () => {
             </div>
             <div>
                 <h2 className='project-subheader'>Designs</h2>
-                <img className='one-row' src={require('assets/images/designProjects/PuppetAnimation/mockups/mockup_cover.jpg')} alt='front cover'/>
+                <img className='one-row' src={require('assets/images/design_projects/puppet_animation/mockups/mockup_cover.jpg')} alt='front cover'/>
                 <div className='flex-container'>
-                    <img className='two-row' src={require('assets/images/designProjects/PuppetAnimation/mockups/mockup_inside2.jpg')} alt='inside pages'/>
-                    <img className='two-row' src={require('assets/images/designProjects/PuppetAnimation/mockups/mockup_inside3.jpg')} alt='inside pages'/>     
+                    <img className='two-row' src={require('assets/images/design_projects/puppet_animation/mockups/mockup_inside2.jpg')} alt='inside pages'/>
+                    <img className='two-row' src={require('assets/images/design_projects/puppet_animation/mockups/mockup_inside3.jpg')} alt='inside pages'/>     
                 </div>  
-                <img className='one-row' src={require('assets/images/designProjects/PuppetAnimation/mockups/mockup_poster.jpg')} alt='poster'/>
+                <img className='one-row' src={require('assets/images/design_projects/puppet_animation/mockups/mockup_poster.jpg')} alt='poster'/>
             </div>
             <div>
                 <h2 className='project-subheader'>All Pages</h2>

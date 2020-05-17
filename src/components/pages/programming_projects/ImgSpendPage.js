@@ -1,6 +1,6 @@
 import React from 'react';
 
-import imgSpendDemo from 'assets/images/programmingProjects/ImgSpend/imgSpend_demo.mov'
+import imgSpendDemo from 'assets/images/programming_projects/img_spend/imgSpend_demo.mov'
 
 const ImgSpend = () => {
     return ( 

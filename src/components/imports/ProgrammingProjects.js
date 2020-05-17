@@ -1,7 +1,7 @@
-import spend from 'assets/images/programmingProjects/Spend/spend.jpg';
-import imgSpend from 'assets/images/programmingProjects/ImgSpend/imgSpend.jpg';
-import storacle from 'assets/images/programmingProjects/Storacle/storacle.jpg';
-import habbit from 'assets/images/programmingProjects/Habbit/habbit.jpg';
+import spend from 'assets/images/programming_projects/spend/spend.jpg';
+import imgSpend from 'assets/images/programming_projects/img_spend/imgSpend.jpg';
+import storacle from 'assets/images/programming_projects/storacle/storacle.jpg';
+import habbit from 'assets/images/programming_projects/habbit/habbit.jpg';
 
 const programmingProjects = [
     {

@@ -1,6 +1,6 @@
 import React from 'react';
 import SlideshowComponent from 'components/SlideshowComponent';
-import eventImages from 'components/subComponents/KateEventImages'
+import eventImages from 'components/imports/KateEventImages'
 
 import 'styles/Projects.css';
 
@@ -10,7 +10,7 @@ const KateBushSymposium = () => {
             <div>
                 <h1 className='project-header'>Kate Bush Symposium</h1>
                 <div className='flex-container'>
-                    <img className='hero' src={require('assets/images/designProjects/KateBush/kate_bush_poster.jpg')} alt='symposium poster'/>
+                    <img className='hero' src={require('assets/images/design_projects/kate_bush/kate_bush_poster.jpg')} alt='symposium poster'/>
                     <p className='project-description'>
                     Full brand identity for the Kate Bush Symposium, to be held in Edinburgh on 12th December 2019 at Edinburgh College of Art.
                     <br /><br />
@@ -24,14 +24,14 @@ const KateBushSymposium = () => {
             </div>
             <div>
                 <h2 className='project-subheader'>Final Designs</h2>
-                <img className='one-row' src={require('assets/images/designProjects/KateBush/kate_spreads.jpg')} alt='symposium poster'/>
-                <img className='one-row' src={require('assets/images/designProjects/KateBush/kate_spread1.jpg')} alt='symposium poster'/>
+                <img className='one-row' src={require('assets/images/design_projects/kate_bush/kate_spreads.jpg')} alt='symposium poster'/>
+                <img className='one-row' src={require('assets/images/design_projects/kate_bush/kate_spread1.jpg')} alt='symposium poster'/>
                 <div className='flex-container'>
-                    <img className='two-row' src={require('assets/images/designProjects/KateBush/postcard_front.jpg')} alt='symposium poster'/>
-                    <img className='two-row' src={require('assets/images/designProjects/KateBush/postcard_back.jpg')} alt='symposium poster'/>
-                    <img className='two-row' src={require('assets/images/designProjects/KateBush/pin_vote.jpg')} alt='symposium poster'/>
-                    <img className='two-row' src={require('assets/images/designProjects/KateBush/pin_work.jpg')} alt='symposium poster'/>
-                    <img className='two-row' src={require('assets/images/designProjects/KateBush/tote_bag.jpg')} alt='symposium poster'/>
+                    <img className='two-row' src={require('assets/images/design_projects/kate_bush/postcard_front.jpg')} alt='symposium poster'/>
+                    <img className='two-row' src={require('assets/images/design_projects/kate_bush/postcard_back.jpg')} alt='symposium poster'/>
+                    <img className='two-row' src={require('assets/images/design_projects/kate_bush/pin_vote.jpg')} alt='symposium poster'/>
+                    <img className='two-row' src={require('assets/images/design_projects/kate_bush/pin_work.jpg')} alt='symposium poster'/>
+                    <img className='two-row' src={require('assets/images/design_projects/kate_bush/tote_bag.jpg')} alt='symposium poster'/>
                 </div>
             </div>
             <div>

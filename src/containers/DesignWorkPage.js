@@ -1,7 +1,7 @@
 import React from 'react';
 
 import 'styles/ProjectsGrid.css';
-import designProjects from 'components/subComponents/designProjects';
+import designProjects from 'components/imports/DesignProjects';
 import ProjectsGrid from 'components/DesignProjectsGridComponent';
 
 const DesignWork = ({history}) => {
