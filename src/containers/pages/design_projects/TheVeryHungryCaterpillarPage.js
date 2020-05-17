@@ -1,8 +1,8 @@
 import React from 'react';
-import SlideshowComponent from './node_modules/components/SlideshowComponent';
-import CaterpillarPages from './node_modules/components/imports/CaterpillarPages';
+import SlideshowComponent from 'components/SlideshowComponent';
+import CaterpillarPages from 'components/imports/CaterpillarPages';
 
-import './node_modules/styles/Projects.css';
+import 'styles/Projects.css';
 
 const TheVeryHungryCaterpillarPage = () => {
 

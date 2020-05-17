@@ -1,8 +1,8 @@
 import React from 'react';
-import SlideshowComponent from './node_modules/components/SlideshowComponent';
-import PASPages from './node_modules/components/imports/PASPages';
+import SlideshowComponent from 'components/SlideshowComponent';
+import PASPages from 'components/imports/PASPages';
 
-import './node_modules/styles/Projects.css';
+import 'styles/Projects.css';
 
 const PuppetAnimationScotlandPage = () => {
     return ( 

@@ -1,19 +1,19 @@
 import React from 'react';
 import {BrowserRouter as Switch, Route} from 'react-router-dom';
 
-import KateBushSymposiumPage from 'components/pages/design_projects/KateBushSymposiumPage';
-import ChoJuicePage from 'components/pages/design_projects/ChoJuicePage';
-import HeinzPage from 'components/pages/design_projects/HeinzPage';
-import GarvaldArtistsPage from 'components/pages/design_projects/GarvaldArtistsPage';
-import LoganAirPage from 'components/pages/design_projects/LoganAirPage';
-import PuppetAnimationScotlandPage from 'components/pages/design_projects/PuppetAnimationScotlandPage';
-import TheVeryHungryCaterpillarPage from 'components/pages/design_projects/TheVeryHungryCaterpillarPage';
-import PersonalTrainerBrandingPage from 'components/pages/design_projects/PersonalTrainerBrandingPage';
+import KateBushSymposiumPage from 'containers/pages/design_projects/KateBushSymposiumPage';
+import ChoJuicePage from 'containers/pages/design_projects/ChoJuicePage';
+import HeinzPage from 'containers/pages/design_projects/HeinzPage';
+import GarvaldArtistsPage from 'containers/pages/design_projects/GarvaldArtistsPage';
+import LoganAirPage from 'containers/pages/design_projects/LoganAirPage';
+import PuppetAnimationScotlandPage from 'containers/pages/design_projects/PuppetAnimationScotlandPage';
+import TheVeryHungryCaterpillarPage from 'containers/pages/design_projects/TheVeryHungryCaterpillarPage';
+import PersonalTrainerBrandingPage from 'containers/pages/design_projects/PersonalTrainerBrandingPage';
 
-import SpendPage from 'components/pages/programming_projects/SpendPage';
-import ImgSpendPage from 'components/pages/programming_projects/ImgSpendPage';
-import StoraclePage from 'components/pages/programming_projects/StoraclePage';
-import HabbitPage from 'components/pages/programming_projects/HabbitPage';
+import SpendPage from 'containers/pages/programming_projects/SpendPage';
+import ImgSpendPage from 'containers/pages/programming_projects/ImgSpendPage';
+import StoraclePage from 'containers/pages/programming_projects/StoraclePage';
+import HabbitPage from 'containers/pages/programming_projects/HabbitPage';
 
 
 const DesignRoutes = () => {

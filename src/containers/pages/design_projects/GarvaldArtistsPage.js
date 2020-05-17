@@ -1,8 +1,8 @@
 import React from 'react';
-import SlideshowComponent from './node_modules/components/SlideshowComponent';
-import merchImages from './node_modules/components/imports/MerchImages';
+import SlideshowComponent from 'components/SlideshowComponent';
+import merchImages from 'components/imports/MerchImages';
 
-import './node_modules/styles/Projects.css';
+import 'styles/Projects.css';
 
 const GarvaldArtistsPage = () => {
     return ( 

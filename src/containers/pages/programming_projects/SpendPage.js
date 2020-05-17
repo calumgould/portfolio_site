@@ -12,7 +12,7 @@ const SpendPage = () => {
                 <br /><br />
                 <b>Sinatra | Ruby, PostgreSQL</b>
                 <br /><br />
-                <a href='https://spend-dot.herokuapp.com' target='_blank' rel='noopener noreferrer'>App</a>
+                <b><a href='https://spend-dot.herokuapp.com' target='_blank' rel='noopener noreferrer'>App</a></b>
                 <br /><br />
                 <b><a href='https://github.com/calumgould/spending_tracker' target='_blank' rel='noopener noreferrer'>GitHub</a></b>
             </p>
