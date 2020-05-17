@@ -69,6 +69,11 @@
         padding: 0;
     }
 
+    .toggle-button {
+        top: 0;
+        padding-left: 80%;
+    }
+
 }
 
 /* SMARTPHONES LANDSCAPE */
