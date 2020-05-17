@@ -2,15 +2,22 @@ import React from 'react';
 
 import 'styles/About.css';
 
+import CalumImage from 'assets/images/other/calum_image.jpg'
+
 const About = () => {
+
+    const aboutImage = {
+        backgroundImage: `url(${CalumImage})`
+    }
+
     return ( 
         <div className='about-page'>
             <h1 className='project-header'>
                 About
             </h1>
             <div className='about-container'>
-                <div className='about-image'>
-                    <img src={require('assets/images/other/calum_image.jpg')}alt='calum gould' />
+                <div className='about-image' style={aboutImage}>
+                    {/* <img src={require('assets/images/other/calum_image.jpg')}alt='calum gould' /> */}
                 </div>
                 <div className='about-text'>  
                     <p>
@@ -42,17 +49,12 @@ const About = () => {
                     <ul>
                         <li>
                             <b>CodeClan</b><br />
-                            Professional Software Development Course
+                            Professional Software Development Course | 2020
                         </li>
                         <br />
                         <li>
                             <b>University of Edinburgh</b><br />
-                            BA Hons Graphic Design
-                        </li>
-                        <br />
-                        <li>
-                            <b>Bolton School Sixth Form</b><br />
-                            A-Level Graphic Design, Maths with Mechanics, Electronics
+                            BA Hons Graphic Design | 2015 - 2019
                         </li>
                     </ul>
                 </div>
