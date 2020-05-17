@@ -45,3 +45,43 @@
     position: absolute;
     padding: 1em 1.5em;
 }
+
+/* RESPOSNIVE */
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+
+    .nav li {
+        display: block;
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    .link {
+        padding: 0.5em;
+        width: 100%;
+    }
+
+    .nav li img {
+        position: static;
+        height: 40px;
+        margin-top: 1.2em;
+        padding: 0;
+    }
+
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+    
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* TABLET LANDSCAPE // DESKTOP */
+@media only screen and (min-width: 1024px) {
+    
+}

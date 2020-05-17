@@ -41,3 +41,41 @@
     cursor: pointer;
     opacity: 0.9;
 }
+
+/* RESPOSNIVE */
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+
+    .home-page {
+        height: 75vh;
+    }
+
+    .logo img {
+        width: 30%;
+    }
+
+    .details {
+        font-size : 1.2em;
+    }
+
+    .button {
+        padding: 1em 2em;
+    }
+
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+    
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* TABLET LANDSCAPE // DESKTOP */
+@media only screen and (min-width: 1024px) {
+    
+}
