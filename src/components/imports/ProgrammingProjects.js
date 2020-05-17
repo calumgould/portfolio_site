@@ -2,6 +2,7 @@ import spend from 'assets/images/programming_projects/spend/spend.jpg';
 import imgSpend from 'assets/images/programming_projects/img_spend/imgSpend.jpg';
 import storacle from 'assets/images/programming_projects/storacle/storacle.jpg';
 import habbit from 'assets/images/programming_projects/habbit/habbit.jpg';
+import portfolio from 'assets/images/programming_projects/portfolio/portfolio.jpg'
 
 const programmingProjects = [
     {
@@ -40,6 +41,16 @@ const programmingProjects = [
         alt: 'habbit logo banner',
         path: 'habbit',
     },
+    {
+        id:4,
+        title: 'Portfolio',
+        info: 'React | JavaScript',
+        year: '2020',
+        src: portfolio,
+        alt: 'personal logo banner',
+        path: 'portfolio',
+
+    }
 ]
 
 export default programmingProjects;

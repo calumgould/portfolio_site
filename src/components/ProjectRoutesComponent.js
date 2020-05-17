@@ -14,6 +14,7 @@ import SpendPage from 'containers/pages/programming_projects/SpendPage';
 import ImgSpendPage from 'containers/pages/programming_projects/ImgSpendPage';
 import StoraclePage from 'containers/pages/programming_projects/StoraclePage';
 import HabbitPage from 'containers/pages/programming_projects/HabbitPage';
+import PortfolioPage from 'containers/pages/programming_projects/PortfolioPage';
 
 
 const DesignRoutes = () => {
@@ -31,6 +32,7 @@ const DesignRoutes = () => {
             <Route path ='/work/programming/imgspend' component={ImgSpendPage}></Route>
             <Route path ='/work/programming/storacle' component={StoraclePage}></Route>
             <Route path ='/work/programming/habbit' component={HabbitPage}></Route>
+            <Route path ='/work/programming/portfolio' component={PortfolioPage}></Route>
         </Switch>
         
      );

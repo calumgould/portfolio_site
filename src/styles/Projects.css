@@ -36,7 +36,6 @@
 .features-list li {
     font-size: 1.2em;
     font-family: var(--body-text);
-    text-align: left;
 }
 
 .flex-container {
