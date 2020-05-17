@@ -37,12 +37,26 @@
 /* RESPOSNIVE */
 
 /* SMARTPHONES PORTRAIT */
-@media only screen and (min-width: 300px) {
+@media only screen and (max-width: 767px) {
+
+    .project-grid {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .project-item {
+        width: 90%;
+    }
+
+    .project-item-text {
+        font-size: 0.8em;
+        margin-bottom: 3%;
+    }
 
 }
 
 /* SMARTPHONES LANDSCAPE */
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 421px) and (max-width: 767px) and (orientation: landscape) {
     
 }
 

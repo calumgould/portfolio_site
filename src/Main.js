@@ -35,9 +35,9 @@ const Main = () => {
                         <Switch>
                             <Route exact path ='/' render={(props) => <Home {...props} darkMode={darkMode} />} />
                             <Route exact path ='/work' component={Work} />
+                            <Route exact path ='/about' component={About} />
                             <Route exact path ='/work/design' component={DesignWork} />
                             <Route exact path ='/work/programming' component={ProgrammingWorkPage} />
-                            <Route path ='/about' component={About} />
                             <ProjectRoutesComponent />
                             <Route component={Error} />
                         </Switch>

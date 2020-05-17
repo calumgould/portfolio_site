@@ -24,13 +24,13 @@ const Storacle = () => {
                 <br /><br />
             </p>
                 <ul className='features-list'>
-                    <li>- Ability to search and fetch real-time data from the Alpha Vantage Stock API</li>
+                    <li>Ability to search and fetch real-time data from the Alpha Vantage Stock API</li>
                     <br />
-                    <li>- User can add/edit stocks and receive an accurate total shares value based on real closing values for the chosen company</li>
+                    <li>User can add/edit stocks and receive an accurate total shares value based on real closing values for the chosen company</li>
                     <br />
-                    <li>- Dynamic rendering of a StockChart for each added stock, and a summary multi-plot StockChart of all stocks</li>
+                    <li>Dynamic rendering of a StockChart for each added stock, and a summary multi-plot StockChart of all stocks</li>
                     <br />
-                    <li>- User can see the total value of all their investments</li>
+                    <li>User can see the total value of all their investments</li>
                     <br />
                 </ul>
         </div>

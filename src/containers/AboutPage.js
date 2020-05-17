@@ -16,9 +16,7 @@ const About = () => {
                 About
             </h1>
             <div className='about-container'>
-                <div className='about-image' style={aboutImage}>
-                    {/* <img src={require('assets/images/other/calum_image.jpg')}alt='calum gould' /> */}
-                </div>
+                <div className='about-image' style={aboutImage} />
                 <div className='about-text'>  
                     <p>
                         Hi, I'm Calum! I'm a software developer with a background in design.
@@ -78,11 +76,9 @@ const About = () => {
                         <li>TDD</li>
                         <li>UX Design</li>
                         <li>Restful APIs</li>
-
                     </ul>
                 </div>
             </div>
-            
         </div>
      );
 }

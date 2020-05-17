@@ -11,11 +11,11 @@ const SlideshowComponent = ({slideImages}) => {
         indicators: true,
     }
 
-    const generateSlides = slideImages.map(image => {
+    const generateSlides = slideImages.map((image, index) => {
         return (
-            <div className='each-fade'>
+            <div className='each-fade' key={index}>
                 <div className='image-container'>
-                    <img src={image} alt='slideshow' />
+                    <img src={image} alt='slideshow'/>
                 </div>
             </div>
         )

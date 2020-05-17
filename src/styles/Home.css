@@ -45,7 +45,7 @@
 /* RESPOSNIVE */
 
 /* SMARTPHONES PORTRAIT */
-@media only screen and (min-width: 300px) {
+@media only screen and (max-width: 767px) {
 
     .home-page {
         height: 75vh;
@@ -66,12 +66,12 @@
 }
 
 /* SMARTPHONES LANDSCAPE */
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 421px) and (max-width: 767px) and (orientation: landscape) {
     
 }
 
 /* TABLETS PORTRAIT */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     
 }
 
