@@ -14,7 +14,7 @@ const PuppetAnimationScotlandPage = () => {
                     <p className='project-description'>
                     Puppet Animation Scotland brand overhaul to bring all their existing events and workshops into one concise publication to be given out to potential clients/event attendees to showcase  Puppet Animation Scotland.
                     <br /><br />
-                    I took the raw form of puppetry as the basis for my design, shadows. Splitting shadows into their raw components through print CMY (Cyan, Magenta, Yellow)
+                    I took the raw form of puppetry as the basis for my design - shadows. Splitting shadows into their raw components through print CMY (Cyan, Magenta, Yellow)
                     <br /><br />
                     This created a colourful, vibrant design that delivers all the essential information and also has the aesthetic that audiences of all age ranges could appreciate and interact with.
                     </p>

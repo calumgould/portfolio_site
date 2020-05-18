@@ -10,13 +10,13 @@ const LoganAirPage = () => {
                 <div className='flex-container'>
                     <img className='hero' src={require('assets/images/design_projects/logan_air/logo_banner.jpg')} alt='logan air logo'/>
                     <p className='project-description'>
-                    Brand redesign concept for Loganair, Scotland's biggest airline est 1962.
+                    <b>Brand redesign concept for Loganair, Scotland's biggest airline est 1962</b>
                     <br /><br />
-                    A fresh, modern take on the Loganair brand, with the aim of bringing it up to standard with major airlines across the UK.
+                    I aimed to provide a fresh, modern take on the Loganair brand, with the aim of bringing it up to standard with major airlines across the UK.
                     <br /><br />
                     This new design would allow the airline to branch outside of Scotland by removing the overly tartan aesthetic and instead taking the existing colour palette to create a whole new identity, without straying too far from the core brand.
                     <br /><br />
-                    This included concepts for aeroplane livery, tickets, advertisements, billboards, uniforms, tickets, pillows and stationary.
+                    This included concepts for aeroplane livery, tickets, advertisements, billboards, uniforms, tickets, pillows and stationery.
                     </p>
                 </div>
             </div>
@@ -27,8 +27,8 @@ const LoganAirPage = () => {
             <div>
                 <h2 className='project-subheader'>Old vs New</h2>
                 <div className='flex-container'>
-                    <img className='two-row' src={require('assets/images/design_projects/logan_air/logo_banner.jpg')} alt='logan air logo'/>
-                    <img className='two-row' src={require('assets/images/design_projects/logan_air/old_logo.jpg')} alt='logan air old logo'/>
+                    <img className='two-row' src={require('assets/images/design_projects/logan_air/old_logo.jpg')} alt='logan air logo'/>
+                    <img className='two-row' src={require('assets/images/design_projects/logan_air/logo_banner.jpg')} alt='logan air old logo'/>
                 </div>
             </div>
             <div>

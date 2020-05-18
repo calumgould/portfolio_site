@@ -34,7 +34,7 @@ const programmingProjects = [
     },
     {
         id:4,
-        title: 'Habbit',
+        title: 'Habbit.',
         info: 'React Native | JavaScript, SQLite',
         year: '2020',
         src: habbit,

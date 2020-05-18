@@ -5,7 +5,7 @@ import habbitDemo from 'assets/images/programming_projects/habbit/habbit_demo.mo
 const Habbit = () => {
     return (   
         <div>
-            <h1 className='project-header'>Habbit</h1>
+            <h1 className='project-header'>Habbit.</h1>
             <p className='app-description'>
                 A mobile app, aimed to increase physical activity and build healthy habits.
                 <br /><br />
@@ -17,7 +17,7 @@ const Habbit = () => {
                 <source src={habbitDemo} type='video/mp4' />
             </video>
             <p className='app-description'>
-                Habbit is a mobile app, inspried by Tamagotchi. 
+                Habbit. is a mobile app, inspried by Tamagotchi. 
                 <br /><br />
                 <b>Features:</b>
                 <br /><br />
@@ -29,7 +29,7 @@ const Habbit = () => {
                     <br />
                     <li>Progress bar that dynamically fills as more steps are added, and resets each growth stage</li>
                     <br />
-                    <li>User can interact with pet by tapping on it (animation & sound)</li>
+                    <li>User can interact with pet by tapping on it (animation and sound)</li>
                     <br />
                 </ul>
         </div>

@@ -19,7 +19,7 @@ const About = () => {
                 <div className='about-image' style={aboutImage} />
                 <div className='about-text'>  
                     <p>
-                        Hi, I'm Calum! I'm a software developer with a background in design.
+                        Hi, I'm Calum. I'm a software developer with a background in design.
                     </p>
                     <br />
                     <p>

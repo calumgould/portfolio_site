@@ -17,7 +17,7 @@ const Portfolio = () => {
                 <source src={portfolioDemo} type='video/mp4' />
             </video>
             <p className='app-description'>
-                This is my portfolio website that I made to collate all my work over the years into one place. 
+                This is my portfolio website that I made to collate some of my work over the years into one place.
                 <br /><br />
                 <b>Features:</b>
                 <br /><br />

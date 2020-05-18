@@ -12,7 +12,7 @@ const HeinzPage = () => {
                     <p className='project-description'>
                     Proposed campaign for D&AD 2019 competition brief "It has to be Heinz".
                     <br /><br />
-                    To celebrate 150 years of Heinz I developed a campaign to utilise the best feature of Heinz...their ketchup. Experimenting with it in every way I could think of, most of which incredibly messy.
+                    To celebrate 150 years of Heinz I developed a campaign to utilise the best feature of Heinz...their ketchup. Experimenting with it in every way I could think of, most of which was incredibly messy.
                     <br /><br />
                     The final designs utilised negative space to show just how iconic Heinz Ketchup is, that you can recognise it without the Heinz brand mark.
                     <br /><br />
