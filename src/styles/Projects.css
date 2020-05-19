@@ -133,7 +133,7 @@
     }
 
     .video-demo {
-        width: 80%;
+        width: 85%;
         height: auto;
     }
 
@@ -195,8 +195,8 @@
     }
 
     .video-demo {
-        width: auto;
-        height: 90vh;
+        width: 90%;
+        max-height: 90vh;
     }
 
     .app-description {
@@ -252,8 +252,8 @@
     }
 
     .video-demo {
-        width: auto;
-        height: 90vh;
+        width: 90%;
+        max-height: 90vh;
     }
 
     .app-description {
@@ -309,8 +309,8 @@
     }
 
     .video-demo {
-        width: auto;
-        height: 90vh;
+        width: 90%;
+        max-height: 90vh;
     }
 
     .app-description {
