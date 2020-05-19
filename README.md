@@ -11,7 +11,7 @@ npm start
 
 ## Demo
 
-![App Demo](src/assets/images/other/portfolio_demo.gif)
+![App Demo](public/portfolio_demo.gif)
 
 ### Technologies
 
