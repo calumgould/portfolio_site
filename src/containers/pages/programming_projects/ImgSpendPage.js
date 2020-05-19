@@ -24,13 +24,13 @@ const ImgSpend = () => {
                 <br /><br />
             </p>
                 <ul className='features-list'>
-                    <li>Fetching of 50 random images, displayed in a responsive grid</li>
+                    <li>- Fetching of 50 random images, displayed in a responsive grid</li>
                     <br />
-                    <li>Load more images on the page (10 at a time)</li>
+                    <li>- Load more images on the page (10 at a time)</li>
                     <br />
-                    <li>Load an entirely new set of images</li>
+                    <li>- Load an entirely new set of images</li>
                     <br />
-                    <li>Clickable images with link to the Unsplash page & author details</li>
+                    <li>- Clickable images with link to the Unsplash page & author details</li>
                     <br />
                 </ul>
         </div>

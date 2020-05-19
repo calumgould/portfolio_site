@@ -70,6 +70,7 @@
     }
 
     .toggle-button {
+        position: absolute;
         top: 0;
         padding-left: 80%;
     }
@@ -77,12 +78,12 @@
 }
 
 /* SMARTPHONES LANDSCAPE */
-@media only screen and (min-width: 421px) and (max-width: 767px) and (orientation: landscape) {
+@media only screen and (min-width: 421px) and (max-width: 900px) and (orientation: landscape) {
     
 }
 
 /* TABLETS PORTRAIT */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1100px) and (orientation: portrait) {
     
 }
 

@@ -80,12 +80,54 @@
 }
 
 /* SMARTPHONES LANDSCAPE */
-@media only screen and (min-width: 421px) and (max-width: 767px) and (orientation: landscape) {
+@media only screen and (min-width: 421px) and (max-width: 900px) and (orientation: landscape) {
+
+    .about-container {
+        margin-bottom: 3em;
+    }
+
+    .about-text {
+        width: 75%;
+        font-size: 1em;
+    }
+
+    .about-image {
+        height: 40vw;
+        width: 50%;
+        margin-bottom: 2em;
+    }
+
+    .about-skills {
+        width: 75%;
+        text-align: center;
+        margin: 2em 0;
+    }
     
 }
 
 /* TABLETS PORTRAIT */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1100px) and (orientation: portrait) {
+
+    .about-container {
+        margin-bottom: 3em;
+    }
+
+    .about-text {
+        width: 65%;
+        font-size: 1.4em;
+    }
+
+    .about-image {
+        height: 50vh;
+        width: 65%;
+        margin-bottom: 2em;
+    }
+
+    .about-skills {
+        width: 65%;
+        text-align: center;
+        margin: 2em 0;
+    }
     
 }
 

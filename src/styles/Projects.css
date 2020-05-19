@@ -36,6 +36,7 @@
 .features-list li {
     font-size: 1.2em;
     font-family: var(--body-text);
+    list-style: none;
 }
 
 .flex-container {
@@ -50,7 +51,7 @@
 
 .one-row {
     width: 88%;
-    margin: 0 5%;
+    margin: 0.5% 5%;
 }
 
 .two-row {
@@ -87,7 +88,7 @@
 /* RESPOSNIVE */
 
 /* SMARTPHONES PORTRAIT */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) and (orientation: portrait){
 
     .project-header {
         font-size: 1.5em;
@@ -149,13 +150,122 @@
 }
 
 /* SMARTPHONES LANDSCAPE */
-@media only screen and (min-width: 421px) and (max-width: 767px) and (orientation: landscape) {
+@media only screen and (min-width: 421px) and (max-width: 900px) and (orientation: landscape) {
     
+    .project-header {
+        font-size: 2em;
+    }
+
+    .project-subheader {
+        font-size: 2em;
+    }
+
+    .hero {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    .project-description {
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    .flex-container {
+        width: 75%;
+        margin: 0 12.5%;
+    }
+
+    .one-row {
+        width: 75%;
+    }
+
+    .two-row {
+        width: 100%;
+        margin-bottom: 0.5%;
+    }
+
+    .three-row {
+        width: 100%;
+        margin-bottom: 1.5%;
+    }
+
+    .two-column-grid {
+        column-count: 1;
+        margin: 2em 12.5%;
+    }
+
+    .video-demo {
+        width: auto;
+        height: 90vh;
+    }
+
+    .app-description {
+        font-size: 1.2em;
+        margin: 0 12.5%;
+    }
+
+    .features-list {
+        font-size: 1em;
+        margin: 0 15%;
+    }
+
 }
 
 /* TABLETS PORTRAIT */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1100px) and (orientation: portrait) {
     
+    .project-header {
+        font-size: 2em;
+    }
+
+    .project-subheader {
+        font-size: 2em;
+    }
+
+    .hero {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    .project-description {
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    .flex-container {
+        width: 75%;
+        margin: 0 12.5%;
+    }
+
+    .one-row {
+        width: 75%;
+    }
+
+    .three-row {
+        width: 100%;
+        margin-bottom: 1.5%;
+    }
+
+    .two-column-grid {
+        column-count: 1;
+        margin: 2em 12.5%;
+    }
+
+    .video-demo {
+        width: auto;
+        height: 90vh;
+    }
+
+    .app-description {
+        font-size: 1.2em;
+        margin: 0 12.5%;
+    }
+
+    .features-list {
+        font-size: 1em;
+        margin: 0 15%;
+    }
+
 }
 
 /* TABLET LANDSCAPE // DESKTOP */

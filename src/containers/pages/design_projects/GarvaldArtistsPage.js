@@ -30,9 +30,9 @@ const GarvaldArtistsPage = () => {
                     <img className='two-row' src={require('assets/images/design_projects/garvald_artists/mockups/mockup_merch.jpg')} alt='merch page'/>
                     <img className='two-row' src={require('assets/images/design_projects/garvald_artists/mockups/mockup_merch_detail.jpg')} alt='merch detail page'/>
                     <img className='two-row' src={require('assets/images/design_projects/garvald_artists/mockups/mockup_social_media.jpg')} alt='social media mockup'/>
-                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/mockups/mockup_booklet1.jpg')} alt='booklet inside'/>
-                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/mockups/mockup_booklet2.jpg')} alt='booklet inside'/>
                 </div>
+                    <img className='one-row' src={require('assets/images/design_projects/garvald_artists/mockups/mockup_booklet1.jpg')} alt='booklet inside'/>
+                    <img className='one-row' src={require('assets/images/design_projects/garvald_artists/mockups/mockup_booklet2.jpg')} alt='booklet inside'/>
             </div>
             <div>
                 <h2 className='project-subheader'>Publication Spreads</h2>

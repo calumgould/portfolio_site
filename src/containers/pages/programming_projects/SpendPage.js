@@ -27,11 +27,11 @@ const SpendPage = () => {
                 <br /><br />
             </p>
                 <ul className='features-list'>
-                    <li>Dynamic budget warnings and insights into the user's spending patterns</li>
+                    <li>- Dynamic budget warnings and insights into the user's spending patterns</li>
                     <br />
-                    <li>Add and manage tracks (purchases), merchants and categories</li>
+                    <li>- Add and manage tracks (purchases), merchants and categories</li>
                     <br />
-                    <li>Edit budget to adapt to new financial constraints</li>
+                    <li>- Edit budget to adapt to new financial constraints</li>
                     <br />
                 </ul>
         </div>

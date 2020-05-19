@@ -27,3 +27,5 @@ React | JavaScript
 
 - Dynamically populated slideshow
 
+- Fully responsive
+
