@@ -6,7 +6,7 @@ import spendDemo from 'assets/images/programming_projects/spend/spend_demo.mov'
 const SpendPage = () => {
     return ( 
         <div>
-            <h1 className='project-header'>Spend</h1>
+            <h1 className='project-header'>Spend.</h1>
             <p className='app-description'>
                 A spending tracker app
                 <br /><br />
@@ -21,7 +21,7 @@ const SpendPage = () => {
                 Your browser does not support this video.
             </video>
             <p className='app-description'>
-                Spend is a web-app, allowing users to track their spending to have better control over their finances. 
+                Spend. is a web-app, allowing users to track their spending to have better control over their finances. 
                 <br /><br />
                 <b>Features:</b>
                 <br /><br />

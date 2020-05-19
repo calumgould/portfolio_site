@@ -7,7 +7,7 @@ import portfolio from 'assets/images/programming_projects/portfolio/portfolio.jp
 const programmingProjects = [
     {
         id:1,
-        title: 'Spend',
+        title: 'Spend.',
         info: 'Sinatra | Ruby, PostgreSQL',
         year: '2020',
         src: spend,
@@ -16,7 +16,7 @@ const programmingProjects = [
     },
     {
         id:2,
-        title: 'ImgSpend',
+        title: 'imgSpend.',
         info: 'Vue.js | JavaScript, Express, Web APIs',
         year: '2020',
         src: imgSpend,

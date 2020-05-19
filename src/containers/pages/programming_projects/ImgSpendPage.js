@@ -5,7 +5,7 @@ import imgSpendDemo from 'assets/images/programming_projects/img_spend/imgSpend_
 const ImgSpend = () => {
     return ( 
         <div>
-            <h1 className='project-header'>ImgSpend</h1>
+            <h1 className='project-header'>imgSpend.</h1>
             <p className='app-description'>
                 A web-app gallery using the Unsplash API
                 <br /><br />
@@ -18,7 +18,7 @@ const ImgSpend = () => {
                 Your browser does not support this video.
             </video>
             <p className='app-description'>
-                ImgSpend is a web-app that fetches and displays random images from the Unsplash image API. 
+                imgSpend. is a web-app that fetches and displays random images from the Unsplash image API. 
                 <br /><br />
                 <b>Features:</b>
                 <br /><br />
