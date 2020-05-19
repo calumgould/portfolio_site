@@ -1,6 +1,6 @@
 import React from 'react';
 
-import habbitDemo from 'assets/images/programming_projects/habbit/habbit_demo.mov'
+import habbitDemo from 'assets/images/programming_projects/habbit/habbit_demo.mp4'
 
 const Habbit = () => {
     return (   

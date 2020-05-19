@@ -1,6 +1,6 @@
 import React from 'react';
 
-import portfolioDemo from 'assets/images/programming_projects/portfolio/portfolio_demo.mov';
+import portfolioDemo from 'assets/images/programming_projects/portfolio/portfolio_demo.mp4';
 
 const Portfolio = () => {
     return ( 
