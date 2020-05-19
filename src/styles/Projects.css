@@ -267,3 +267,61 @@
     }
 
 }
+
+/* TABLET LANDSCAPE // DESKTOP */
+@media only screen and (min-width: 901px) and  (max-width: 1400px){
+
+    .project-header {
+        font-size: 2em;
+    }
+
+    .project-subheader {
+        font-size: 2em;
+    }
+
+    .hero {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    .project-description {
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    .flex-container {
+        width: 75%;
+        margin: 0 12.5%;
+    }
+
+    .one-row {
+        width: 75%;
+    }
+
+    .three-row {
+        width: 100%;
+        margin-bottom: 1.5%;
+    }
+
+    .two-column-grid {
+        column-count: 1;
+        margin: 2em 12.5%;
+    }
+
+    .video-demo {
+        width: auto;
+        height: 90vh;
+    }
+
+    .app-description {
+        font-size: 1.2em;
+        margin: 0 12.5%;
+    }
+
+    .features-list {
+        font-size: 1em;
+        margin: 0 15%;
+    }
+
+
+}
