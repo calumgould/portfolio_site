@@ -13,8 +13,9 @@ const ImgSpend = () => {
                 <br /><br />
                 <b><a href='https://github.com/calumgould/image_library_vue_api' target='_blank' rel='noopener noreferrer'>GitHub</a></b>
             </p>
-            <video className='video-demo' loop autoPlay>
+            <video className='video-demo' preload='metadata' loop autoPlay controls>
                 <source src={imgSpendDemo} type='video/mp4' />
+                Your browser does not support this video.
             </video>
             <p className='app-description'>
                 ImgSpend is a web-app that fetches and displays random images from the Unsplash image API. 

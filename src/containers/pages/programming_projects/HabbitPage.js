@@ -13,8 +13,9 @@ const Habbit = () => {
                 <br /><br />
                 <b><a href='https://github.com/calumgould/habbit_react_native_project' target='_blank' rel='noopener noreferrer'>GitHub</a></b>
             </p>
-            <video className='video-demo' loop autoPlay>
+            <video className='video-demo' preload='metadata' loop autoPlay controls>
                 <source src={habbitDemo} type='video/mp4' />
+                Your browser does not support this video.
             </video>
             <p className='app-description'>
                 Habbit. is a mobile app, inspried by Tamagotchi. 

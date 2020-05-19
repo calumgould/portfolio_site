@@ -13,8 +13,9 @@ const Portfolio = () => {
                 <br /><br />
                 <b><a href='https://github.com/calumgould/portfolio_site' target='_blank' rel='noopener noreferrer'>GitHub</a></b>
             </p>
-            <video className='video-demo' loop autoPlay>
+            <video className='video-demo' preload='metadata' loop autoPlay controls>
                 <source src={portfolioDemo} type='video/mp4' />
+                Your browser does not support this video.
             </video>
             <p className='app-description'>
                 This is my portfolio website that I made to collate some of my work over the years into one place.

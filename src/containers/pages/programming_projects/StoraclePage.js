@@ -14,8 +14,9 @@ const Storacle = () => {
                 <br /><br />
                 <b><a href='https://github.com/calumgould/shares_portfolio' target='_blank' rel='noopener noreferrer'>GitHub</a></b>
             </p>
-            <video className='video-demo' loop autoPlay>
+            <video className='video-demo' preload='metadata' loop autoPlay controls>
                 <source src={storacleDemo} type='video/mp4' />
+                Your browser does not support this video.
             </video>
             <p className='app-description'>
                 Storacle is a web-app which allows users to track and view their investments in any company.

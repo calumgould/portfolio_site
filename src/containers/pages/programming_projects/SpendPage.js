@@ -16,8 +16,9 @@ const SpendPage = () => {
                 <br /><br />
                 <b><a href='https://github.com/calumgould/spending_tracker' target='_blank' rel='noopener noreferrer'>GitHub</a></b>
             </p>
-            <video className='video-demo' loop autoPlay>
+            <video className='video-demo' preload='metadata' loop autoPlay controls>
                 <source src={spendDemo} type='video/mp4' />
+                Your browser does not support this video.
             </video>
             <p className='app-description'>
                 Spend is a web-app, allowing users to track their spending to have better control over their finances. 
