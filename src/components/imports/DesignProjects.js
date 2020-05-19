@@ -1,11 +1,11 @@
-import kateBush from 'assets/images/design_projects/kate_bush/kate_bush_poster.jpg';
-import choJuice from 'assets/images/design_projects/cho_juice/logo.jpg';
-import heinzPoster from 'assets/images/design_projects/heinz/heinz_poster.jpg';
-import garvaldArtists from 'assets/images/design_projects/garvald_artists/mockups/mockup_booklet_spreads.jpg';
-import loganAir from 'assets/images/design_projects/logan_air/logo.jpg';
-import puppetAnimation from 'assets/images/design_projects/puppet_animation/mockups/mockup_spreads.jpg';
-import theVeryHungryCaterpillar from 'assets/images/design_projects/hungry_caterpillar/mockups/mockup_front.jpg';
-import personalTrainer from 'assets/images/design_projects/personal_trainer/cards_mockup.jpg';
+import kateBush from 'assets/images/design_projects/kate_bush/kate_bush_poster.png';
+import choJuice from 'assets/images/design_projects/cho_juice/logo.png';
+import heinzPoster from 'assets/images/design_projects/heinz/heinz_poster.png';
+import garvaldArtists from 'assets/images/design_projects/garvald_artists/mockups/mockup_booklet_spreads.png';
+import loganAir from 'assets/images/design_projects/logan_air/logo.png';
+import puppetAnimation from 'assets/images/design_projects/puppet_animation/mockups/mockup_spreads.png';
+import theVeryHungryCaterpillar from 'assets/images/design_projects/hungry_caterpillar/mockups/mockup_front.png';
+import personalTrainer from 'assets/images/design_projects/personal_trainer/cards_mockup.png';
 
 const designProjects = [
     {

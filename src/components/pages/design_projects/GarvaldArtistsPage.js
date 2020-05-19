@@ -10,7 +10,7 @@ const GarvaldArtistsPage = () => {
             <div>
                 <h1 className='project-header'>Garvald Artists</h1>
                 <div className='flex-container'>
-                    <img className='hero' src={require('assets/images/design_projects/garvald_artists/mockups/mockup_booklet_spreads.jpg')} alt='booklet spreads'/>
+                    <img className='hero' src={require('assets/images/design_projects/garvald_artists/mockups/mockup_booklet_spreads.png')} alt='booklet spreads'/>
                     <p className='project-description'>
                     Garvald Artists is one of 21 supported workshops in Edinburgh. Their purpose is to support adults with a learning disability and develop their art, craft and catering skills.
                     <br /><br />
@@ -25,25 +25,25 @@ const GarvaldArtistsPage = () => {
             <div>
                 <h2 className='project-subheader'>Designs</h2>
                 <div className='flex-container'>
-                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/mockups/mockup_window.jpg')} alt='booklet spreads'/>
-                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/mockups/mockup_home.jpg')} alt='booklet spreads'/>
-                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/mockups/mockup_merch.jpg')} alt='merch page'/>
-                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/mockups/mockup_merch_detail.jpg')} alt='merch detail page'/>
-                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/mockups/mockup_social_media.jpg')} alt='social media mockup'/>
-                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/mockups/mockup_booklet1.jpg')} alt='booklet inside'/>
-                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/mockups/mockup_booklet2.jpg')} alt='booklet inside'/>
+                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/mockups/mockup_window.png')} alt='booklet spreads'/>
+                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/mockups/mockup_home.png')} alt='booklet spreads'/>
+                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/mockups/mockup_merch.png')} alt='merch page'/>
+                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/mockups/mockup_merch_detail.png')} alt='merch detail page'/>
+                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/mockups/mockup_social_media.png')} alt='social media mockup'/>
+                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/mockups/mockup_booklet1.png')} alt='booklet inside'/>
+                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/mockups/mockup_booklet2.png')} alt='booklet inside'/>
                 </div>
             </div>
             <div>
                 <h2 className='project-subheader'>Publication Spreads</h2>
                 <div className='flex-container'>
-                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/spreads/spread2.jpg')} alt='booklet spreads'/>
-                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/spreads/spread3.jpg')} alt='booklet spreads'/>
-                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/spreads/spread4.jpg')} alt='booklet spreads'/>
-                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/spreads/spread5.jpg')} alt='booklet spreads'/>
-                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/spreads/spread6.jpg')} alt='booklet spreads'/>
-                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/spreads/spread7.jpg')} alt='booklet spreads'/>
-                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/spreads/spread8.jpg')} alt='booklet spreads'/>
+                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/spreads/spread2.png')} alt='booklet spreads'/>
+                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/spreads/spread3.png')} alt='booklet spreads'/>
+                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/spreads/spread4.png')} alt='booklet spreads'/>
+                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/spreads/spread5.png')} alt='booklet spreads'/>
+                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/spreads/spread6.png')} alt='booklet spreads'/>
+                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/spreads/spread7.png')} alt='booklet spreads'/>
+                    <img className='two-row' src={require('assets/images/design_projects/garvald_artists/spreads/spread8.png')} alt='booklet spreads'/>
                 </div>
             </div>
             <div>

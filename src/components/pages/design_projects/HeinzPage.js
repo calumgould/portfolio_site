@@ -8,7 +8,7 @@ const HeinzPage = () => {
             <div>
                 <h1 className='project-header'>D&AD Heinz</h1>
                 <div className='flex-container'>
-                    <img className='hero' src={require('assets/images/design_projects/heinz/heinz_poster.jpg')} alt='heinz project poster'/>
+                    <img className='hero' src={require('assets/images/design_projects/heinz/heinz_poster.png')} alt='heinz project poster'/>
                     <p className='project-description'>
                     Proposed campaign for D&AD 2019 competition brief "It has to be Heinz".
                     <br /><br />
@@ -25,16 +25,16 @@ const HeinzPage = () => {
             <div>
                 <h2 className='project-subheader'>Proposed Idea</h2>
                 <div className='flex-container'>
-                    <img className='two-row' src={require('assets/images/design_projects/heinz/heinz_slide1.jpg')} alt='heinz slides'/>
-                    <img className='two-row' src={require('assets/images/design_projects/heinz/heinz_slide2.jpg')} alt='heinz slides'/>
-                    <img className='two-row' src={require('assets/images/design_projects/heinz/heinz_slide3.jpg')} alt='heinz slides'/>
-                    <img className='two-row' src={require('assets/images/design_projects/heinz/heinz_slide4.jpg')} alt='heinz slides'/>
-                    <img className='two-row' src={require('assets/images/design_projects/heinz/heinz_slide5.jpg')} alt='heinz slides'/>
-                    <img className='two-row' src={require('assets/images/design_projects/heinz/heinz_slide6.jpg')} alt='heinz slides'/>
-                    <img className='two-row' src={require('assets/images/design_projects/heinz/heinz_slide7.jpg')} alt='heinz slides'/>
-                    <img className='two-row' src={require('assets/images/design_projects/heinz/heinz_slide8.jpg')} alt='heinz slides'/>
-                    <img className='two-row' src={require('assets/images/design_projects/heinz/heinz_slide9.jpg')} alt='heinz slides'/>
-                    <img className='two-row' src={require('assets/images/design_projects/heinz/heinz_slide10.jpg')} alt='heinz slides'/>
+                    <img className='two-row' src={require('assets/images/design_projects/heinz/heinz_slide1.png')} alt='heinz slides'/>
+                    <img className='two-row' src={require('assets/images/design_projects/heinz/heinz_slide2.png')} alt='heinz slides'/>
+                    <img className='two-row' src={require('assets/images/design_projects/heinz/heinz_slide3.png')} alt='heinz slides'/>
+                    <img className='two-row' src={require('assets/images/design_projects/heinz/heinz_slide4.png')} alt='heinz slides'/>
+                    <img className='two-row' src={require('assets/images/design_projects/heinz/heinz_slide5.png')} alt='heinz slides'/>
+                    <img className='two-row' src={require('assets/images/design_projects/heinz/heinz_slide6.png')} alt='heinz slides'/>
+                    <img className='two-row' src={require('assets/images/design_projects/heinz/heinz_slide7.png')} alt='heinz slides'/>
+                    <img className='two-row' src={require('assets/images/design_projects/heinz/heinz_slide8.png')} alt='heinz slides'/>
+                    <img className='two-row' src={require('assets/images/design_projects/heinz/heinz_slide9.png')} alt='heinz slides'/>
+                    <img className='two-row' src={require('assets/images/design_projects/heinz/heinz_slide10.png')} alt='heinz slides'/>
                 </div>
             </div>
         </div>
