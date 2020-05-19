@@ -9,6 +9,8 @@ npm install
 npm start
 ```
 
+Note: images aren't included with this repo as it is my personal work and not available for public use.
+
 ## Demo
 
 ![App Demo](public/portfolio_demo.gif)
