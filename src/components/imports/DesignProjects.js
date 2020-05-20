@@ -2,7 +2,7 @@ import kateBush from 'assets/images/design_projects/kate_bush/kate_bush_poster.p
 import choJuice from 'assets/images/design_projects/cho_juice/logo.png';
 import heinzPoster from 'assets/images/design_projects/heinz/heinz_poster.png';
 import garvaldArtists from 'assets/images/design_projects/garvald_artists/mockups/mockup_booklet_spreads.png';
-import loganAir from 'assets/images/design_projects/logan_air/logo.png';
+import loganAir from 'assets/images/design_projects/logan_air/logo_banner.png';
 import puppetAnimation from 'assets/images/design_projects/puppet_animation/mockups/mockup_spreads.png';
 import theVeryHungryCaterpillar from 'assets/images/design_projects/hungry_caterpillar/mockups/mockup_front.png';
 import personalTrainer from 'assets/images/design_projects/personal_trainer/cards_mockup.png';

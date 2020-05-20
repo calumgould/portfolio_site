@@ -37,7 +37,7 @@ const LoganAirPage = () => {
                     <img className='grid-image' src={require('assets/images/design_projects/logan_air/billboard.png')} alt='billboard branding'/>
                     <img className='grid-image' src={require('assets/images/design_projects/logan_air/bus_stop.png')} alt='bus stop branding'/>
                     <img className='grid-image' src={require('assets/images/design_projects/logan_air/ticket.png')} alt='ticket branding'/>
-                    <img className='grid-image' src={require('assets/images/design_projects/logan_air/flag.png')} alt='flag branding'/>
+                    <img className='grid-image' src={require('assets/images/design_projects/logan_air/flag.jpg')} alt='flag branding'/>
                     <img className='grid-image' src={require('assets/images/design_projects/logan_air/neck_wrap_dashes.png')} alt='neck wrap'/>
                     <img className='grid-image' src={require('assets/images/design_projects/logan_air/neck_wrap_stripes.png')} alt='neck wrap branding'/>
                     <img className='grid-image' src={require('assets/images/design_projects/logan_air/skirt_dashes.png')} alt='skirt branding'/>

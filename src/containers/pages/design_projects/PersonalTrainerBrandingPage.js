@@ -28,9 +28,9 @@ const PersonalTrainerBrandingPage = () => {
             <div>
                 <h2 className='project-subheader'>Designs</h2>
                 <div className='flex-container'>
-                    <img className='three-row' src={require('assets/images/design_projects/personal_trainer/card_front.png')} alt='business card front design'/>
-                    <img className='three-row' src={require('assets/images/design_projects/personal_trainer/card_back.png')} alt='business card back design'/>
-                    <img className='three-row' src={require('assets/images/design_projects/personal_trainer/pattern.png')} alt='background pattern'/>
+                    <img className='three-row' src={require('assets/images/design_projects/personal_trainer/card_front.jpg')} alt='business card front design'/>
+                    <img className='three-row' src={require('assets/images/design_projects/personal_trainer/card_back.jpg')} alt='business card back design'/>
+                    <img className='three-row' src={require('assets/images/design_projects/personal_trainer/pattern.jpg')} alt='background pattern'/>
                 </div>
             </div>
         </div>

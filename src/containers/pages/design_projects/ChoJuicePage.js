@@ -41,7 +41,7 @@ const ChoJuicePage = () => {
                     <img className='two-row' src={require('assets/images/design_projects/cho_juice/social_media/insta_story3.png')} alt='instagram mockups'/>
                     <img className='two-row' src={require('assets/images/design_projects/cho_juice/social_media/insta_story4.png')} alt='instagram mockups'/>
                 </div>
-                <img className='one-row' src={require('assets/images/design_projects/cho_juice/social_media/twitter_banner.png')} alt='twitter mockup'/>
+                <img className='one-row' src={require('assets/images/design_projects/cho_juice/social_media/twitter_banner.jpg')} alt='twitter mockup'/>
             </div>
             <div>
                 <h2 className='project-subheader'>Posters</h2>

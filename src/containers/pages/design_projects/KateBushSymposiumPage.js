@@ -29,8 +29,8 @@ const KateBushSymposium = () => {
                 <div className='flex-container'>
                     <img className='two-row' src={require('assets/images/design_projects/kate_bush/postcard_front.png')} alt='symposium poster'/>
                     <img className='two-row' src={require('assets/images/design_projects/kate_bush/postcard_back.png')} alt='symposium poster'/>
-                    <img className='two-row' src={require('assets/images/design_projects/kate_bush/pin_vote.png')} alt='symposium poster'/>
-                    <img className='two-row' src={require('assets/images/design_projects/kate_bush/pin_work.png')} alt='symposium poster'/>
+                    <img className='two-row' src={require('assets/images/design_projects/kate_bush/pin_vote.jpg')} alt='symposium poster'/>
+                    <img className='two-row' src={require('assets/images/design_projects/kate_bush/pin_work.jpg')} alt='symposium poster'/>
                     <img className='two-row' src={require('assets/images/design_projects/kate_bush/tote_bag.png')} alt='symposium poster'/>
                 </div>
             </div>
