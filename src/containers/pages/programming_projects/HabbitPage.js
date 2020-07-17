@@ -24,13 +24,13 @@ const Habbit = () => {
                 <br /><br />
             </p>
                 <ul className='features-list'>
-                    <li>- User can name their pet</li>
+                    <li><span>-</span> User can name their pet</li>
                     <br />
-                    <li>- Pet can grow based on user activity (step count)</li>
+                    <li><span>-</span> Pet can grow based on user activity (step count)</li>
                     <br />
-                    <li>- Progress bar that dynamically fills as more steps are added, and resets each growth stage</li>
+                    <li><span>-</span> Progress bar that dynamically fills as more steps are added, and resets each growth stage</li>
                     <br />
-                    <li>- User can interact with pet by tapping on it (animation and sound)</li>
+                    <li><span>-</span> User can interact with pet by tapping on it (animation and sound)</li>
                     <br />
                 </ul>
         </div>

@@ -41,7 +41,8 @@ const NavBar = (props) => {
                 </li>
                 <li>
                     <NavLink 
-                    className='link'                      activeClassName='link-active'
+                    className='link'
+                    activeClassName='link-active'
                     to="/" exact>
                     Home
                     </NavLink>

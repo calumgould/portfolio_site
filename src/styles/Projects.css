@@ -39,6 +39,10 @@
     list-style: none;
 }
 
+.features-list > li > span {
+    color: var(--primary);
+}
+
 .flex-container {
     display: flex;
     width: 90%;
@@ -146,6 +150,7 @@
         font-size: 0.8em;
         margin: 0 15%;
     }
+
 
 }
 

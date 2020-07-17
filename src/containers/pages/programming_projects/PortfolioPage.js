@@ -24,13 +24,13 @@ const Portfolio = () => {
                 <br /><br />
             </p>
                 <ul className='features-list'>
-                    <li>- Light / Dark mode toggle</li>
+                    <li><span>-</span> Light / Dark mode toggle</li>
                     <br />
-                    <li>- React Router navigation</li>
+                    <li><span>-</span> React Router navigation</li>
                     <br />
-                    <li>- Dynamically populated slideshow</li>
+                    <li><span>-</span> Dynamically populated slideshow</li>
                     <br />
-                    <li>- Fully responsive</li>
+                    <li><span>-</span> Fully responsive</li>
                     <br />
                 </ul>
         </div>
