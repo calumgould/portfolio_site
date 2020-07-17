@@ -11,6 +11,8 @@ const Trend = () => {
                 <br /><br />
                 <b>React | JavaScript, Node.js</b>
                 <br /><br />
+                <b><a href='https://feasty-1b5e9.web.app/' target='_blank' rel='noopener noreferrer'>App</a></b>
+                <br /><br />
                 <b><a href='https://github.com/calumgould/fashion_website' target='_blank' rel='noopener noreferrer'>GitHub</a></b>
             </p>
             <video className='video-demo' preload='metadata' loop autoPlay controls>
